@@ -1,0 +1,37 @@
+project:
+  name: OAM-SE-SAM3-PPI
+
+seed: 42
+
+device:
+  use_cuda: true
+  mixed_precision: true
+  cudnn_benchmark: true
+  channels_last: true
+
+train:
+  batch_size: 50
+  epochs: 50
+  learning_rate: 1.0e-4
+  weight_decay: 1.0e-4
+  optimizer: AdamW
+  num_workers: 0
+  pin_memory: true
+
+model:
+  num_classes: 11
+  input_channels: 1
+  image_size: 224
+  pretrained: false
+
+paths:
+  train_csv: data/manifests/train.csv
+  val_csv: data/manifests/val.csv
+  test_csv: data/manifests/test.csv
+
+  checkpoints_dir: checkpoints
+  outputs_dir: outputs
+  metrics_dir: outputs/metrics
+  figures_dir: outputs/figures
+  predictions_dir: outputs/predictions
+  confusion_matrix_dir: outputs/confusion_matrices

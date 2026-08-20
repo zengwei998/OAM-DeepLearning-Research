@@ -1,0 +1,78 @@
+project:
+  name: OAM-SE-SAM3-PPI
+
+seed: 42
+
+data:
+  image_size: 224
+  channels: 1
+  samples_per_condition: 30
+  train_ratio: 0.7
+  val_ratio: 0.2
+  test_ratio: 0.1
+
+oam:
+  radial_index: 0
+  topological_charges: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  num_classes: 11
+
+channel:
+  cn2_values:
+    - 1.0e-15
+    - 2.5e-15
+    - 5.0e-15
+    - 7.5e-15
+    - 1.0e-14
+    - 5.0e-14
+    - 1.0e-13
+
+  propagation_distances: [250, 500, 750, 1000]
+  snr_values: [20, 10, 5, 0, -5]
+
+physics:
+  wavelength: 1.55e-6
+  beam_waist: 0.03
+  aperture_size: 0.20
+  grid_size: 224
+  phase_screen_num: 20
+  turbulence_spectrum: kolmogorov
+  propagation_method: angular_spectrum
+  turbulence_strength_scale: 8.0
+
+complexity:
+  enable_receiver_shift: true
+  max_shift_pixels: 18
+
+  enable_random_intensity_gain: true
+  gain_min: 0.70
+  gain_max: 1.25
+
+  enable_background_stray_light: true
+  stray_light_max: 0.15
+
+  enable_speckle_noise: true
+  speckle_strength: 0.35
+
+  enable_poisson_noise: true
+  poisson_peak: 35
+
+  enable_nonuniform_background: true
+  background_strength: 0.18
+
+  enable_frequency_tilt: true
+  frequency_tilt_strength: 18.0
+
+  enable_aperture_clipping: true
+  aperture_clip_ratio_min: 0.78
+  aperture_clip_ratio_max: 0.96
+
+  enable_blur: true
+  blur_probability: 0.35
+
+performance:
+  num_workers: 16
+
+output:
+  raw_image_dir: data/raw/images
+  metadata_dir: data/raw/metadata
+  manifest_dir: data/manifests

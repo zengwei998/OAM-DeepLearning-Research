@@ -216,3 +216,36 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# ============================================================
+# Project-specific ignores
+# ============================================================
+
+# IDE
+.idea/
+.vscode/
+
+# Model checkpoints / weights
+*.pt
+*.pth
+*.ckpt
+
+# Large datasets and generated data
+data/raw/
+data/generated/
+data/cache/
+datasets/
+checkpoints/
+runs/
+
+# Archives
+*.rar
+*.zip
+*.7z
+
+# Temporary / local outputs
+*.tmp
+Thumbs.db
+.DS_Store
+
+# Local experiment caches
+**/__pycache__/

@@ -1,0 +1,7 @@
+{
+    "model": "resnet50",
+    "best_epoch": 44,
+    "best_val_acc": 0.7658008658008658,
+    "best_val_acc_percent": 76.58008658008659,
+    "epochs_finished": 50
+}
