@@ -1,0 +1,74 @@
+Corrected occlusion dataset v2 audit
+Source: E:\OAM_MC_VWLS_Project\data\generated\occlusion_clean_v2.h5
+Audit seed: 20260804
+
+SECTION 1 — Structure and metadata
+HDF5 keys: ['base_indices', 'conditions', 'intensity', 'labels', 'legacy_source_indices', 'visible_mask']
+intensity: shape=(44800, 256, 256), dtype=float32, chunks=(32, 256, 256), compression=gzip
+visible_mask: shape=(44800, 256, 256), dtype=uint8, chunks=(32, 256, 256), compression=gzip
+labels: shape=(44800,), dtype=int32, chunks=None, compression=None
+conditions: shape=(44800, 9), dtype=float64, chunks=None, compression=None
+base_indices: shape=(44800,), dtype=int64, chunks=None, compression=None
+legacy_source_indices: shape=(44800,), dtype=int64, chunks=None, compression=None
+
+HDF5 attributes:
+  condition_columns: Cn2,distance,propagation_seed,target_energy_occlusion,achieved_energy_occlusion,obstacle_center_x,obstacle_center_y,obstacle_radius_pixels,mask_seed
+  dataset_name: corrected_random_local_occlusion_v2
+  global_mask_seed: 20260804
+  intensity_definition: clean post-turbulence intensity after corrected binary circular local occlusion
+  mask_definition: 1=visible,0=blocked
+  maximum_absolute_occlusion_error: 0.0013496020595339941
+  mean_absolute_occlusion_error: 0.0001162506214988376
+  occlusion_definition: blocked optical energy divided by total pre-occlusion optical energy
+  sample_count: 44800
+  source_file: turbulence_base_v1.h5
+  target_occlusion_ratios: [0.  0.1 0.2 0.3 0.4]
+
+SECTION 2 — Dataset balance
+Unique labels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+Label counts min/max: 1400/1400
+Target levels: [0.0, 0.1, 0.2, 0.3, 0.4]
+Target counts: [8960, 8960, 8960, 8960, 8960]
+Unique base indices: 8960
+Samples per base min/max: 5/5
+
+SECTION 3 — Energy-occlusion accuracy
+Absolute energy-ratio error: n=44800, min=0.0000000000, mean=0.0001162506, median=0.0000684075, max=0.0013496021, std=0.0001408920
+target=0.0
+  achieved ratio: n=8960, min=0.0000000000, mean=0.0000000000, median=0.0000000000, max=0.0000000000, std=0.0000000000
+  absolute error: n=8960, min=0.0000000000, mean=0.0000000000, median=0.0000000000, max=0.0000000000, std=0.0000000000
+target=0.1
+  achieved ratio: n=8960, min=0.1000000046, mean=0.1001528603, median=0.1001089490, max=0.1012609543, std=0.0001480522
+  absolute error: n=8960, min=0.0000000046, mean=0.0001528603, median=0.0001089490, max=0.0012609543, std=0.0001480522
+target=0.2
+  achieved ratio: n=8960, min=0.2000000297, mean=0.2001501410, median=0.2001061207, max=0.2013496021, std=0.0001481698
+  absolute error: n=8960, min=0.0000000297, mean=0.0001501410, median=0.0001061207, max=0.0013496021, std=0.0001481698
+target=0.3
+  achieved ratio: n=8960, min=0.3000000074, mean=0.3001408860, median=0.3000977670, max=0.3012923065, std=0.0001395610
+  absolute error: n=8960, min=0.0000000074, mean=0.0001408860, median=0.0000977670, max=0.0012923065, std=0.0001395610
+target=0.4
+  achieved ratio: n=8960, min=0.4000000311, mean=0.4001373658, median=0.4000958944, max=0.4012721168, std=0.0001372807
+  absolute error: n=8960, min=0.0000000311, mean=0.0001373658, median=0.0000958944, max=0.0012721168, std=0.0001372807
+
+SECTION 4 — Sample intensity and mask content
+Remaining intensity power: n=512, min=0.5993657603, mean=0.7953996063, median=0.7998591681, max=0.9999980198, std=0.1436471562
+Visible pixel fraction: n=512, min=0.8584442139, mean=0.9701979160, median=0.9766769409, max=1.0000000000, std=0.0266832438
+Maximum blocked-region intensity: n=512, min=0.0000000000, mean=0.0000000000, median=0.0000000000, max=0.0000000000, std=0.0000000000
+Ratio recalculation error: n=512, min=0.0000011653, mean=0.0000018811, median=0.0000018474, max=0.0000028855, std=0.0000003774
+All sampled intensities finite: True
+All sampled masks binary: True
+Total negative visible pixels: 0
+
+SECTION 5 — Nested-mask consistency
+Audited base groups: 256
+Mask nesting failures: 0
+Radius monotonicity failures: 0
+Achieved-ratio monotonicity failures: 0
+Obstacle center x: n=256, min=95.3437340573, mean=126.2709116611, median=126.1287205307, max=158.6541993341, std=11.6491300077
+Obstacle center y: n=256, min=99.0942340991, mean=130.6472273139, median=130.4509626631, max=169.0698194514, std=12.7133991705
+Obstacle radius: n=1280, min=0.0000000000, mean=20.6830554626, median=21.9811798507, max=54.6925472384, std=13.0646460663
+Unique sampled center pairs: 256
+
+==============================================================================
+AUDIT STATUS: PASS
+==============================================================================

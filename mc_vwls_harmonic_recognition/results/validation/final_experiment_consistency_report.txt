@@ -1,0 +1,59 @@
+Final MC-VWLS experiment consistency validation
+
+[SUMMARY]
+Status=PASS
+Total checks=29
+Passed checks=29
+Failed checks=0
+
+[FROZEN A3 RESULTS]
+Joint-label accuracy=0.848125000000
+OAM-order accuracy=0.893452380952
+Phase-bin accuracy=0.857916666667
+A3 prediction observations=33600
+
+[CATEGORY RESULTS]
+complexity: PASS=3, FAIL=0
+confusion: PASS=7, FAIL=0
+failure_case: PASS=3, FAIL=0
+files: PASS=2, FAIL=0
+prediction: PASS=10, FAIL=0
+runtime: PASS=4, FAIL=0
+
+[FAILED CHECKS]
+None
+
+[ALL CHECKS]
+PASS: PRED-001, Total ablation prediction rows, expected=134400, actual=134400
+PASS: PRED-002, Prediction method coverage, expected=('A0_DAF', 'A1_MASK_ULS', 'A2_RAW_VWLS', 'A3_MC_VWLS'), actual=('A0_DAF', 'A1_MASK_ULS', 'A2_RAW_VWLS', 'A3_MC_VWLS')
+PASS: PRED-COUNT-A0_DAF, Observation count for A0_DAF, expected=33600, actual=33600
+PASS: PRED-COUNT-A1_MASK_ULS, Observation count for A1_MASK_ULS, expected=33600, actual=33600
+PASS: PRED-COUNT-A2_RAW_VWLS, Observation count for A2_RAW_VWLS, expected=33600, actual=33600
+PASS: PRED-COUNT-A3_MC_VWLS, Observation count for A3_MC_VWLS, expected=33600, actual=33600
+PASS: PRED-A3-LABEL, A3 joint-label accuracy, expected=0.848125000000, actual=0.848125000000
+PASS: PRED-A3-ORDER, A3 OAM-order accuracy, expected=0.893452380952, actual=0.893452380952
+PASS: PRED-A3-PHASE, A3 phase-bin accuracy, expected=0.857916666667, actual=0.857916666667
+PASS: PRED-003, Unique method/sample/SNR prediction keys, expected=0, actual=0
+PASS: CONF-001, Count matrix dimensions, expected=(32, 32), actual=(32, 32)
+PASS: CONF-002, Normalized matrix dimensions, expected=(32, 32), actual=(32, 32)
+PASS: CONF-003, Confusion-matrix total count, expected=33600, actual=33600
+PASS: CONF-004, Confusion-matrix diagonal count, expected=28497, actual=28497
+PASS: CONF-005, Confusion accuracy matches A3 prediction accuracy, expected=0.848125000000, actual=0.848125000000
+PASS: CONF-006, Normalized confusion values lie in [0, 1], expected=0, actual=0
+PASS: CONF-007, Normalized confusion rows sum to one, expected=0, actual=0
+PASS: FAILCASE-001, Selected representative-case count, expected=4, actual=4
+PASS: FAILCASE-002, Representative-case category coverage, expected=['Correct: severe turbulence', 'Correct: weak turbulence', 'Failure: adjacent phase', 'Failure: cross order'], actual=['Correct: severe turbulence', 'Correct: weak turbulence', 'Failure: adjacent phase', 'Failure: cross order']
+PASS: FAILCASE-003, Selected-case correctness flags match labels, expected=0, actual=0
+PASS: RUNTIME-001, Runtime benchmark row count, expected=8, actual=8
+PASS: RUNTIME-002, Runtime method/scope coverage, expected=[('A0_DAF', 'end_to_end'), ('A0_DAF', 'recognition_only'), ('A1_MASK_ULS', 'end_to_end'), ('A1_MASK_ULS', 'recognition_only'), ('A2_RAW_VWLS', 'end_to_end'), ('A2_RAW_VWLS', 'recognition_only'), ('A3_MC_VWLS', 'end_to_end'), ('A3_MC_VWLS', 'recognition_only')], actual=[('A0_DAF', 'end_to_end'), ('A0_DAF', 'recognition_only'), ('A1_MASK_ULS', 'end_to_end'), ('A1_MASK_ULS', 'recognition_only'), ('A2_RAW_VWLS', 'end_to_end'), ('A2_RAW_VWLS', 'recognition_only'), ('A3_MC_VWLS', 'end_to_end'), ('A3_MC_VWLS', 'recognition_only')]
+PASS: RUNTIME-003, Runtime values and protocol fields, expected=0, actual=0
+PASS: RUNTIME-004, End-to-end time is not below recognition-only time, expected=0, actual=0
+PASS: COMPLEX-001, Complexity-table row count, expected=4, actual=4
+PASS: COMPLEX-002, Complexity-table method coverage, expected=['A0_DAF', 'A1_MASK_ULS', 'A2_RAW_VWLS', 'A3_MC_VWLS'], actual=['A0_DAF', 'A1_MASK_ULS', 'A2_RAW_VWLS', 'A3_MC_VWLS']
+PASS: COMPLEX-003, Complexity-table frozen parameter values, expected=0, actual=0
+PASS: FILES-001, Missing critical experiment outputs, expected=0, actual=0
+PASS: FILES-002, Empty critical experiment outputs, expected=0, actual=0
+
+[OUTPUTS]
+Check CSV: E:\OAM_MC_VWLS_Project\results\csv\final_experiment_consistency_checks.csv
+Validation report: E:\OAM_MC_VWLS_Project\results\validation\final_experiment_consistency_report.txt

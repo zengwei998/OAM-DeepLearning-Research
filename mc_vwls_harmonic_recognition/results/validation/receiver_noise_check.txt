@@ -1,0 +1,32 @@
+Deterministic receiver-noise validation report
+Source: E:\OAM_MC_VWLS_Project\data\generated\occlusion_clean_v2.h5
+Global noise seed: 20260804
+SNR levels: [20.0, 15.0, 10.0, 5.0, 0.0]
+
+Sample index: 0
+  sample_00000_snr_+020.0dB: seed=30445416, preclip=20.0000000000 dB, postclip=22.6924751126 dB, clipped_fraction=0.46023560, reproducible=True, finite=True, nonnegative=True
+  sample_00000_snr_+015.0dB: seed=2426694978, preclip=15.0000000000 dB, postclip=17.7452113429 dB, clipped_fraction=0.46350098, reproducible=True, finite=True, nonnegative=True
+  sample_00000_snr_+010.0dB: seed=4242489969, preclip=10.0000000000 dB, postclip=12.7850116005 dB, clipped_fraction=0.46728516, reproducible=True, finite=True, nonnegative=True
+  sample_00000_snr_+005.0dB: seed=1437958925, preclip=5.0000000000 dB, postclip=7.8063755234 dB, clipped_fraction=0.47125244, reproducible=True, finite=True, nonnegative=True
+  sample_00000_snr_+000.0dB: seed=3946513473, preclip=0.0000000000 dB, postclip=2.8342296974 dB, clipped_fraction=0.47822571, reproducible=True, finite=True, nonnegative=True
+  source_unchanged=True
+
+Sample index: 21702
+  sample_21702_snr_+020.0dB: seed=380548355, preclip=20.0000000000 dB, postclip=22.4745446572 dB, clipped_fraction=0.42156982, reproducible=True, finite=True, nonnegative=True
+  sample_21702_snr_+015.0dB: seed=489776744, preclip=15.0000000000 dB, postclip=17.5585146409 dB, clipped_fraction=0.43304443, reproducible=True, finite=True, nonnegative=True
+  sample_21702_snr_+010.0dB: seed=3157095699, preclip=10.0000000000 dB, postclip=12.6116631929 dB, clipped_fraction=0.44233704, reproducible=True, finite=True, nonnegative=True
+  sample_21702_snr_+005.0dB: seed=2262117159, preclip=5.0000000000 dB, postclip=7.6984820080 dB, clipped_fraction=0.45137024, reproducible=True, finite=True, nonnegative=True
+  sample_21702_snr_+000.0dB: seed=1507174070, preclip=-0.0000000000 dB, postclip=2.7569060213 dB, clipped_fraction=0.45861816, reproducible=True, finite=True, nonnegative=True
+  source_unchanged=True
+
+Sample index: 44799
+  sample_44799_snr_+020.0dB: seed=1509762932, preclip=20.0000000000 dB, postclip=21.8229034574 dB, clipped_fraction=0.30895996, reproducible=True, finite=True, nonnegative=True
+  sample_44799_snr_+015.0dB: seed=906597652, preclip=15.0000000000 dB, postclip=17.0743503623 dB, clipped_fraction=0.34680176, reproducible=True, finite=True, nonnegative=True
+  sample_44799_snr_+010.0dB: seed=947276444, preclip=10.0000000000 dB, postclip=12.2976634381 dB, clipped_fraction=0.37934875, reproducible=True, finite=True, nonnegative=True
+  sample_44799_snr_+005.0dB: seed=1716968596, preclip=5.0000000000 dB, postclip=7.4774005465 dB, clipped_fraction=0.40641785, reproducible=True, finite=True, nonnegative=True
+  sample_44799_snr_+000.0dB: seed=891527726, preclip=-0.0000000000 dB, postclip=2.6326560331 dB, clipped_fraction=0.43218994, reproducible=True, finite=True, nonnegative=True
+  source_unchanged=True
+
+==============================================================================
+RECEIVER-NOISE STATUS: PASS
+==============================================================================

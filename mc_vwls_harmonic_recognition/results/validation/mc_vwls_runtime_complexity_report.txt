@@ -1,0 +1,63 @@
+MC-VWLS runtime and computational-complexity benchmark
+
+[ENVIRONMENT]
+Python=3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+Platform=Windows-10-10.0.22621-SP0
+Processor=AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD
+NumPy=2.4.6
+Timer=time.perf_counter_ns
+
+[BENCHMARK PROTOCOL]
+Frozen test subset size=256
+Subset seed=20260804
+Warm-up observations per method=16
+Repeated measurements=5
+SNR assignment=20.0,15.0,10.0,5.0,0.0 dB, assigned cyclically
+Angular samples=180
+Radial samples=64
+Candidate orders=(1, 2, 3, 4)
+Phase bins=8
+Visibility threshold=0.0
+Regularization=0.0
+Weight power=0.5
+Timing is single-process Python CPU timing. File loading and result serialization are excluded.
+End-to-end timing includes deterministic noise, polar sampling, angular-profile construction, and recognition.
+Recognition-only timing starts from frozen prepared polar and angular representations.
+
+[RUNTIME RESULTS]
+A0_DAF (DAF):
+  recognition_only=0.046552 ms/image, std=0.000158, throughput=21481.484 images/s
+  end_to_end=1.927305 ms/image, std=0.014276, throughput=518.859 images/s
+A1_MASK_ULS (Mask-ULS):
+  recognition_only=0.411968 ms/image, std=0.010269, throughput=2427.372 images/s
+  end_to_end=2.314179 ms/image, std=0.026714, throughput=432.119 images/s
+A2_RAW_VWLS (Raw-VWLS):
+  recognition_only=0.403766 ms/image, std=0.000735, throughput=2476.682 images/s
+  end_to_end=2.333548 ms/image, std=0.027514, throughput=428.532 images/s
+A3_MC_VWLS (MC-VWLS):
+  recognition_only=0.404473 ms/image, std=0.003780, throughput=2472.354 images/s
+  end_to_end=2.318055 ms/image, std=0.020351, throughput=431.396 images/s
+
+[RUNTIME COMPARISONS]
+Fastest recognition-only method=A0_DAF
+Fastest end-to-end method=A0_DAF
+MC-VWLS / DAF end-to-end runtime ratio=1.202744
+MC-VWLS / Mask-ULS end-to-end runtime ratio=1.001675
+
+[COMPUTATIONAL COMPLEXITY]
+Let N_theta denote angular samples, N_r radial samples, K candidate OAM orders, and p=3 fitted coefficients.
+Polar sampling and radial aggregation require O(N_theta*N_r) time and dominate stored intermediate memory with O(N_theta*N_r).
+DAF recognition evaluates K angular harmonics and has O(K*N_theta) recognition complexity.
+ULS and VWLS construct one p-by-p normal system for each candidate, giving O(K*N_theta*p^2 + K*p^3).
+Because p=3 and K=4 are fixed, all four complete methods are asymptotically O(N_theta*N_r) for the present implementation.
+Current polar grid size=11520 samples.
+
+[ENVIRONMENT NOTE]
+The timing script uses the validated BLAS-free 3x3 harmonic solver because the current Windows environment terminates natively for specific BLAS/LAPACK operations. The frozen harmonic model and parameters are unchanged.
+
+[OUTPUTS]
+Runtime CSV: E:\OAM_MC_VWLS_Project\results\csv\mc_vwls_runtime_benchmark.csv
+Complexity CSV: E:\OAM_MC_VWLS_Project\results\csv\mc_vwls_complexity_summary.csv
+PNG figure: E:\OAM_MC_VWLS_Project\results\figures\fig_mc_vwls_runtime.png
+PDF figure: E:\OAM_MC_VWLS_Project\results\figures\fig_mc_vwls_runtime.pdf
+Report: E:\OAM_MC_VWLS_Project\results\validation\mc_vwls_runtime_complexity_report.txt

@@ -1,0 +1,60 @@
+HDF5 physical-quality audit report
+Source file: E:\OAM_MC_VWLS_Project\data\generated\turbulence_mask_v1.h5
+Audit seed: 20260804
+
+SECTION 1 — Random sample field and mask audit
+Field total power: n=512, min=0.53621715, mean=0.98088443, median=0.99954730, max=0.99999809, std=0.06014334
+Visible pixel fraction: n=512, min=0.15681458, mean=0.50553790, median=0.47138977, max=1.00000000, std=0.27955476
+Maximum blocked-pixel amplitude: n=512, min=0.00000000, mean=0.00000000, median=0.00000000, max=0.00000000, std=0.00000000
+All sampled fields finite: True
+
+Statistics grouped by configured mask_ratio:
+mask_ratio=1.000000
+  power: n=91, min=0.99999702, mean=0.99999762, median=0.99999762, max=0.99999809, std=0.00000023
+  visible_fraction: n=91, min=1.00000000, mean=1.00000000, median=1.00000000, max=1.00000000, std=0.00000000
+mask_ratio=0.800000
+  power: n=107, min=0.98445433, mean=0.99847605, median=0.99965322, max=0.99999750, std=0.00281653
+  visible_fraction: n=107, min=0.62806702, mean=0.62806702, median=0.62806702, max=0.62806702, std=0.00000000
+mask_ratio=0.600000
+  power: n=116, min=0.94186777, mean=0.99639751, median=0.99957010, max=0.99999756, std=0.00834857
+  visible_fraction: n=116, min=0.47138977, mean=0.47138977, median=0.47138977, max=0.47138977, std=0.00000000
+mask_ratio=0.400000
+  power: n=95, min=0.73911816, mean=0.98962801, median=0.99893606, max=0.99999595, std=0.03073769
+  visible_fraction: n=95, min=0.31367493, mean=0.31367493, median=0.31367493, max=0.31367493, std=0.00000000
+mask_ratio=0.200000
+  power: n=103, min=0.53621715, mean=0.92018770, median=0.97171092, max=0.99993777, std=0.11114280
+  visible_fraction: n=103, min=0.15681458, mean=0.15681458, median=0.15681458, max=0.15681458, std=0.00000000
+
+SECTION 2 — Random-realization diversity
+
+Condition: state=0, Cn2=1.0000e-15, distance=250.0, mask_ratio=1.000
+Matched realizations: 10
+  complex similarity to seed 0: n=9, min=0.99555394, mean=0.99774824, median=0.99773728, max=0.99897689, std=0.00094129
+  intensity correlation to seed 0: n=9, min=0.99837743, mean=0.99899610, median=0.99898609, max=0.99958515, std=0.00038260
+
+Condition: state=7, Cn2=1.0000e-14, distance=750.0, mask_ratio=0.600
+Matched realizations: 10
+  complex similarity to seed 0: n=9, min=0.88674047, mean=0.92755507, median=0.92964706, max=0.96274504, std=0.02432380
+  intensity correlation to seed 0: n=9, min=0.89696235, mean=0.94885514, median=0.94792940, max=0.98645944, std=0.02504623
+
+Condition: state=31, Cn2=1.0000e-13, distance=1000.0, mask_ratio=0.200
+Matched realizations: 10
+  complex similarity to seed 0: n=9, min=0.03386840, mean=0.16712403, median=0.18776486, max=0.30688384, std=0.07790869
+  intensity correlation to seed 0: n=9, min=0.40304566, mean=0.50298504, median=0.46615791, max=0.72388353, std=0.09532635
+
+SECTION 3 — OAM-state diversity
+
+State-diversity reference condition: Cn2=5.0000e-15, distance=500.0, mask_ratio=1.000, seed=0
+Matched state samples: 32
+  complex similarity between state 0 and states 1-31: n=31, min=0.00000000, mean=0.12991433, median=0.00000021, max=0.92387954, std=0.28265962
+  intensity correlation between state 0 and states 1-31: n=31, min=0.24530005, mean=0.45078527, median=0.40687770, max=0.89204962, std=0.17299484
+
+SECTION 4 — Duplicate screening
+
+Duplicate audit sample count: 512
+Repeated lightweight fingerprints: 0
+
+==============================================================================
+AUDIT STATUS: PASS_WITH_REVIEW
+==============================================================================
+PASS_WITH_REVIEW means that no structural failure was found, but numerical results must still be reviewed before the dataset is accepted for final experiments.

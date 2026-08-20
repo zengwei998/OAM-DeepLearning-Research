@@ -1,0 +1,47 @@
+Paper output validation report
+
+[FILE EXISTENCE]
+PASS table: Table1_dataset_statistics.csv
+PASS table: Table2_occlusion_validation.csv
+PASS table: Table3_noise_validation.csv
+PASS table: Table4_main_results.csv
+PASS table: Table5_ablation_results.csv
+PASS table: Table6_cn2_distance_results.csv
+PASS table: Table7_statistical_significance.csv
+PASS figure: fig_method_overall_accuracy.png
+PASS figure: fig_method_overall_accuracy.pdf
+PASS figure: fig_accuracy_vs_occlusion.png
+PASS figure: fig_accuracy_vs_occlusion.pdf
+PASS figure: fig_accuracy_vs_snr.png
+PASS figure: fig_accuracy_vs_snr.pdf
+PASS figure: fig_mc_vwls_cn2_distance_heatmap.png
+PASS figure: fig_mc_vwls_cn2_distance_heatmap.pdf
+
+[TABLE ROW COUNTS]
+PASS Table1_dataset_statistics.csv: rows=15
+PASS Table2_occlusion_validation.csv: rows=5
+PASS Table3_noise_validation.csv: rows=5
+PASS Table4_main_results.csv: rows=4
+PASS Table5_ablation_results.csv: rows=4
+PASS Table6_cn2_distance_results.csv: rows=28
+PASS Table7_statistical_significance.csv: rows=6
+
+[MAIN RESULT CONSISTENCY]
+PASS A0_DAF: label=0.84565476, order=0.89205357, phase=0.85589286
+PASS A1_MASK_ULS: label=0.84857143, order=0.89348214, phase=0.85830357
+PASS A2_RAW_VWLS: label=0.84571429, order=0.89318452, phase=0.85565476
+PASS A3_MC_VWLS: label=0.84812500, order=0.89345238, phase=0.85791667
+
+[PAIRWISE STATISTICS]
+PASS label-accuracy comparisons: 6
+PASS A1_MASK_ULS vs A3_MC_VWLS: BH-adjusted p=1.1538875041e-01, significant=0
+
+[CN2-DISTANCE RESULTS]
+PASS raw summary rows: 112
+PASS conditions per method: 28
+PASS Table6 rows: 28
+
+
+==============================================================================
+PAPER OUTPUT VALIDATION STATUS: PASS
+==============================================================================

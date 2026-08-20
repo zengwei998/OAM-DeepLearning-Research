@@ -1,0 +1,30 @@
+Ablation paired statistical comparison report
+Prediction CSV: E:\OAM_MC_VWLS_Project\results\csv\mc_vwls_ablation_full_test_predictions.csv
+Paired observations: 33600
+Bootstrap repetitions: 10000
+Bootstrap seed: 20260804
+
+[95% WILSON CONFIDENCE INTERVALS]
+method=A0_DAF, metric=label_correct, accuracy=0.84565476, CI=[0.84175229, 0.84947820]
+method=A0_DAF, metric=order_correct, accuracy=0.89205357, CI=[0.88869063, 0.89532688]
+method=A0_DAF, metric=phase_correct, accuracy=0.85589286, CI=[0.85209699, 0.85960736]
+method=A1_MASK_ULS, metric=label_correct, accuracy=0.84857143, CI=[0.84469870, 0.85236446]
+method=A1_MASK_ULS, metric=order_correct, accuracy=0.89348214, CI=[0.89013842, 0.89673590]
+method=A1_MASK_ULS, metric=phase_correct, accuracy=0.85830357, CI=[0.85453372, 0.86199150]
+method=A2_RAW_VWLS, metric=label_correct, accuracy=0.84571429, CI=[0.84181242, 0.84953711]
+method=A2_RAW_VWLS, metric=order_correct, accuracy=0.89318452, CI=[0.88983678, 0.89644237]
+method=A2_RAW_VWLS, metric=phase_correct, accuracy=0.85565476, CI=[0.85185634, 0.85937187]
+method=A3_MC_VWLS, metric=label_correct, accuracy=0.84812500, CI=[0.84424769, 0.85192272]
+method=A3_MC_VWLS, metric=order_correct, accuracy=0.89345238, CI=[0.89010826, 0.89670655]
+method=A3_MC_VWLS, metric=phase_correct, accuracy=0.85791667, CI=[0.85414261, 0.86160889]
+
+[PAIRWISE LABEL-ACCURACY COMPARISONS]
+A0_DAF vs A1_MASK_ULS: first_accuracy=0.84565476, second_accuracy=0.84857143, difference(second-first)=+0.00291667, bootstrap_95_CI=[+0.00208333, +0.00375074], first_only_correct=56, second_only_correct=154, exact_p=9.0996298185e-12, BH_adjusted_p=1.6379333673e-10, significant=1
+A0_DAF vs A2_RAW_VWLS: first_accuracy=0.84565476, second_accuracy=0.84571429, difference(second-first)=+0.00005952, bootstrap_95_CI=[-0.00050595, +0.00062500], first_only_correct=45, second_only_correct=47, exact_p=9.1704051965e-01, BH_adjusted_p=9.7098407963e-01, significant=0
+A0_DAF vs A3_MC_VWLS: first_accuracy=0.84565476, second_accuracy=0.84812500, difference(second-first)=+0.00247024, bootstrap_95_CI=[+0.00169568, +0.00327381], first_only_correct=56, second_only_correct=139, exact_p=2.4906019125e-09, BH_adjusted_p=1.4943611475e-08, significant=1
+A1_MASK_ULS vs A2_RAW_VWLS: first_accuracy=0.84857143, second_accuracy=0.84571429, difference(second-first)=-0.00285714, bootstrap_95_CI=[-0.00375000, -0.00199405], first_only_correct=161, second_only_correct=65, exact_p=1.3953782374e-10, BH_adjusted_p=1.2558404136e-09, significant=1
+A1_MASK_ULS vs A3_MC_VWLS: first_accuracy=0.84857143, second_accuracy=0.84812500, difference(second-first)=-0.00044643, bootstrap_95_CI=[-0.00092262, +0.00000000], first_only_correct=39, second_only_correct=24, exact_p=7.6925833610e-02, BH_adjusted_p=1.1538875041e-01, significant=0
+A2_RAW_VWLS vs A3_MC_VWLS: first_accuracy=0.84571429, second_accuracy=0.84812500, difference(second-first)=+0.00241071, bootstrap_95_CI=[+0.00160714, +0.00324405], first_only_correct=55, second_only_correct=136, exact_p=4.1923336043e-09, BH_adjusted_p=1.8865501219e-08, significant=1
+
+Confidence interval CSV: E:\OAM_MC_VWLS_Project\results\csv\ablation_accuracy_confidence_intervals.csv
+Pairwise statistics CSV: E:\OAM_MC_VWLS_Project\results\csv\ablation_pairwise_statistics.csv

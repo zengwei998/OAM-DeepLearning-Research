@@ -1,0 +1,217 @@
+Conditions dataset inspection report
+Dataset: E:\OAM_MC_VWLS_Project\data\generated\occlusion_clean_v2.h5
+
+conditions_shape=(44800, 9)
+conditions_dtype=float64
+
+[HDF5 ATTRIBUTES]
+condition_columns=Cn2,distance,propagation_seed,target_energy_occlusion,achieved_energy_occlusion,obstacle_center_x,obstacle_center_y,obstacle_radius_pixels,mask_seed
+dataset_name=corrected_random_local_occlusion_v2
+global_mask_seed=20260804
+intensity_definition=clean post-turbulence intensity after corrected binary circular local occlusion
+mask_definition=1=visible,0=blocked
+maximum_absolute_occlusion_error=0.0013496020595339941
+mean_absolute_occlusion_error=0.0001162506214988376
+occlusion_definition=blocked optical energy divided by total pre-occlusion optical energy
+sample_count=44800
+source_file=turbulence_base_v1.h5
+target_occlusion_ratios=[0.  0.1 0.2 0.3 0.4]
+
+[CONDITIONS DATASET ATTRIBUTES]
+No conditions dataset attributes.
+
+[COLUMN STATISTICS]
+
+column_0
+min=1.0000000036e-15
+max=9.9999998245e-14
+mean=2.7642856661e-14
+unique_count=7
+unique_values_and_counts:
+    1.0000000036e-15: 6400
+    2.4999999561e-15: 6400
+    4.9999999123e-15: 6400
+    9.9999998245e-15: 6400
+    2.4999999561e-14: 6400
+    4.9999999123e-14: 6400
+    9.9999998245e-14: 6400
+
+column_1
+min=250
+max=1000
+mean=625
+unique_count=4
+unique_values_and_counts:
+    250: 11200
+    500: 11200
+    750: 11200
+    1000: 11200
+
+column_2
+min=0
+max=9
+mean=4.5
+unique_count=10
+unique_values_and_counts:
+    0: 4480
+    1: 4480
+    2: 4480
+    3: 4480
+    4: 4480
+    5: 4480
+    6: 4480
+    7: 4480
+    8: 4480
+    9: 4480
+
+column_3
+min=0
+max=0.4
+mean=0.2
+unique_count=5
+unique_values_and_counts:
+    0: 8960
+    0.1: 8960
+    0.2: 8960
+    0.3: 8960
+    0.4: 8960
+
+column_4
+min=0
+max=0.4012721168
+mean=0.2001162506
+unique_count=35841
+first_10_unique_values:
+    0
+    0.1000000046
+    0.1000000218
+    0.1000000339
+    0.1000000604
+    0.1000000708
+    0.1000001379
+    0.1000001588
+    0.1000001613
+    0.1000001744
+last_10_unique_values:
+    0.4009210855
+    0.4009233906
+    0.4009380261
+    0.400993723
+    0.4010223332
+    0.4010368802
+    0.4011433822
+    0.4011515916
+    0.4011604626
+    0.4012721168
+
+column_5
+min=92.5388481797
+max=161.2212737819
+mean=126.3566890869
+unique_count=8960
+first_10_unique_values:
+    92.5388481797
+    92.5664901045
+    93.5144707373
+    93.5668381329
+    94.9450708489
+    94.9769549897
+    95.2681485021
+    95.3437340573
+    95.3792930422
+    95.6800260905
+last_10_unique_values:
+    159.9586331432
+    160.0430881147
+    160.2722296938
+    160.4044328705
+    160.4191325841
+    160.7376783802
+    160.7581044337
+    161.0757678833
+    161.089949946
+    161.2212737819
+
+column_6
+min=96.5230026717
+max=177.4662182635
+mean=130.3848743086
+unique_count=8960
+first_10_unique_values:
+    96.5230026717
+    96.5564217941
+    96.5576699959
+    96.6379636192
+    96.6404376852
+    96.7201756259
+    96.7224210772
+    96.7552889487
+    99.0610521164
+    99.0942340991
+last_10_unique_values:
+    174.2053033647
+    174.5859701778
+    174.8619300142
+    174.9150986347
+    175.5933331587
+    175.7021445289
+    176.6697283076
+    176.7506380062
+    177.4409601066
+    177.4662182635
+
+column_7
+min=0
+max=63.3765236641
+mean=20.5543395649
+unique_count=35841
+first_10_unique_values:
+    0
+    5.3888781457
+    5.7232187949
+    5.7752934991
+    5.8879838502
+    5.9453736698
+    6.147339886
+    6.1631783608
+    6.1919708185
+    6.2381909218
+last_10_unique_values:
+    60.4100521903
+    60.7421432189
+    61.3431773355
+    61.6718238623
+    61.8684656291
+    62.1404981174
+    62.2303197606
+    62.3276806253
+    63.1631249637
+    63.3765236641
+
+column_8
+min=5.5872510000e+06
+max=4.2310982780e+09
+mean=2.1248818981e+09
+unique_count=280
+first_10_unique_values:
+    5.5872510000e+06
+    1.1070212000e+07
+    2.4128334000e+07
+    2.6060749000e+07
+    2.9903181000e+07
+    4.8073694000e+07
+    5.3507739000e+07
+    5.6460732000e+07
+    7.9916747000e+07
+    1.0355340000e+08
+last_10_unique_values:
+    4.1175444090e+09
+    4.1176930320e+09
+    4.1297741200e+09
+    4.1385898350e+09
+    4.1423607660e+09
+    4.1729681550e+09
+    4.1852607770e+09
+    4.1863272600e+09
+    4.2273510480e+09
+    4.2310982780e+09

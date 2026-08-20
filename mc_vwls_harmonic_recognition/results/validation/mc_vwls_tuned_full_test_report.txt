@@ -1,0 +1,69 @@
+Tuned MC-VWLS full test evaluation report
+Dataset: E:\OAM_MC_VWLS_Project\data\generated\occlusion_clean_v2.h5
+Split: E:\OAM_MC_VWLS_Project\data\manifest\sample_split_v1.npz
+Test clean samples: 6720
+SNR levels: (20.0, 15.0, 10.0, 5.0, 0.0)
+Total noisy observations: 33600
+
+[FROZEN VALIDATION-SELECTED PARAMETERS]
+weight_power=0.50000000
+visibility_threshold=0.00000000
+regularization=0.0000000000e+00
+
+overall_samples=33600
+overall_label_accuracy=0.84812500
+overall_order_accuracy=0.89345238
+overall_phase_accuracy=0.85791667
+overall_mean_phase_bin_error=0.28309524
+overall_mean_confidence=0.57350412
+
+[BY SNR]
+SNR=20.0 dB, samples=6720, label_accuracy=0.84895833, order_accuracy=0.89315476, phase_accuracy=0.85863095
+SNR=15.0 dB, samples=6720, label_accuracy=0.84851190, order_accuracy=0.89315476, phase_accuracy=0.85833333
+SNR=10.0 dB, samples=6720, label_accuracy=0.84761905, order_accuracy=0.89360119, phase_accuracy=0.85744048
+SNR=5.0 dB, samples=6720, label_accuracy=0.84940476, order_accuracy=0.89464286, phase_accuracy=0.85892857
+SNR=0.0 dB, samples=6720, label_accuracy=0.84613095, order_accuracy=0.89270833, phase_accuracy=0.85625000
+
+[BY OCCLUSION]
+occlusion=0.0, samples=6720, label_accuracy=0.86517857, order_accuracy=0.89419643, phase_accuracy=0.87276786
+occlusion=0.1, samples=6720, label_accuracy=0.85848214, order_accuracy=0.89568452, phase_accuracy=0.86666667
+occlusion=0.2, samples=6720, label_accuracy=0.85089286, order_accuracy=0.89107143, phase_accuracy=0.86056548
+occlusion=0.3, samples=6720, label_accuracy=0.83958333, order_accuracy=0.89077381, phase_accuracy=0.85059524
+occlusion=0.4, samples=6720, label_accuracy=0.82648810, order_accuracy=0.89553571, phase_accuracy=0.83898810
+
+[BY SNR AND OCCLUSION]
+SNR=20.0 dB, occlusion=0.0, samples=1344, label_accuracy=0.86532738, order_accuracy=0.89360119, phase_accuracy=0.87276786
+SNR=20.0 dB, occlusion=0.1, samples=1344, label_accuracy=0.85863095, order_accuracy=0.89508929, phase_accuracy=0.86755952
+SNR=20.0 dB, occlusion=0.2, samples=1344, label_accuracy=0.84970238, order_accuracy=0.88988095, phase_accuracy=0.85937500
+SNR=20.0 dB, occlusion=0.3, samples=1344, label_accuracy=0.83928571, order_accuracy=0.89062500, phase_accuracy=0.84970238
+SNR=20.0 dB, occlusion=0.4, samples=1344, label_accuracy=0.83184524, order_accuracy=0.89657738, phase_accuracy=0.84375000
+SNR=15.0 dB, occlusion=0.0, samples=1344, label_accuracy=0.86532738, order_accuracy=0.89360119, phase_accuracy=0.87202381
+SNR=15.0 dB, occlusion=0.1, samples=1344, label_accuracy=0.85937500, order_accuracy=0.89583333, phase_accuracy=0.86830357
+SNR=15.0 dB, occlusion=0.2, samples=1344, label_accuracy=0.85119048, order_accuracy=0.89062500, phase_accuracy=0.86086310
+SNR=15.0 dB, occlusion=0.3, samples=1344, label_accuracy=0.83928571, order_accuracy=0.89062500, phase_accuracy=0.85044643
+SNR=15.0 dB, occlusion=0.4, samples=1344, label_accuracy=0.82738095, order_accuracy=0.89508929, phase_accuracy=0.84002976
+SNR=10.0 dB, occlusion=0.0, samples=1344, label_accuracy=0.86532738, order_accuracy=0.89434524, phase_accuracy=0.87202381
+SNR=10.0 dB, occlusion=0.1, samples=1344, label_accuracy=0.85788690, order_accuracy=0.89583333, phase_accuracy=0.86681548
+SNR=10.0 dB, occlusion=0.2, samples=1344, label_accuracy=0.84970238, order_accuracy=0.89136905, phase_accuracy=0.85937500
+SNR=10.0 dB, occlusion=0.3, samples=1344, label_accuracy=0.83854167, order_accuracy=0.88988095, phase_accuracy=0.84895833
+SNR=10.0 dB, occlusion=0.4, samples=1344, label_accuracy=0.82663690, order_accuracy=0.89657738, phase_accuracy=0.84002976
+SNR=5.0 dB, occlusion=0.0, samples=1344, label_accuracy=0.86458333, order_accuracy=0.89508929, phase_accuracy=0.87202381
+SNR=5.0 dB, occlusion=0.1, samples=1344, label_accuracy=0.86235119, order_accuracy=0.89806548, phase_accuracy=0.86979167
+SNR=5.0 dB, occlusion=0.2, samples=1344, label_accuracy=0.85267857, order_accuracy=0.89136905, phase_accuracy=0.86235119
+SNR=5.0 dB, occlusion=0.3, samples=1344, label_accuracy=0.84151786, order_accuracy=0.89211310, phase_accuracy=0.85267857
+SNR=5.0 dB, occlusion=0.4, samples=1344, label_accuracy=0.82589286, order_accuracy=0.89657738, phase_accuracy=0.83779762
+SNR=0.0 dB, occlusion=0.0, samples=1344, label_accuracy=0.86532738, order_accuracy=0.89434524, phase_accuracy=0.87500000
+SNR=0.0 dB, occlusion=0.1, samples=1344, label_accuracy=0.85416667, order_accuracy=0.89360119, phase_accuracy=0.86086310
+SNR=0.0 dB, occlusion=0.2, samples=1344, label_accuracy=0.85119048, order_accuracy=0.89211310, phase_accuracy=0.86086310
+SNR=0.0 dB, occlusion=0.3, samples=1344, label_accuracy=0.83928571, order_accuracy=0.89062500, phase_accuracy=0.85119048
+SNR=0.0 dB, occlusion=0.4, samples=1344, label_accuracy=0.82068452, order_accuracy=0.89285714, phase_accuracy=0.83333333
+
+[BY OAM ORDER]
+order=1, samples=8400, label_accuracy=0.85678571, order_accuracy=0.96226190, phase_accuracy=0.85678571
+order=2, samples=8400, label_accuracy=0.85523810, order_accuracy=0.90059524, phase_accuracy=0.86726190
+order=3, samples=8400, label_accuracy=0.85285714, order_accuracy=0.86619048, phase_accuracy=0.85857143
+order=4, samples=8400, label_accuracy=0.82761905, order_accuracy=0.84476190, phase_accuracy=0.84904762
+
+elapsed_seconds=121.526208
+mean_seconds_per_observation=0.0036168514
+CSV: E:\OAM_MC_VWLS_Project\results\csv\mc_vwls_tuned_full_test_predictions.csv

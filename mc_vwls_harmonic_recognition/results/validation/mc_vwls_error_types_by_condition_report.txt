@@ -1,0 +1,77 @@
+MC-VWLS error-type analysis by condition
+Prediction CSV: E:\OAM_MC_VWLS_Project\results\csv\mc_vwls_ablation_full_test_predictions.csv
+Dataset: E:\OAM_MC_VWLS_Project\data\generated\occlusion_clean_v2.h5
+Selected method: A3_MC_VWLS
+
+[GLOBAL]
+samples=33600, correct=28497, errors=5103, accuracy=0.84812500
+same_order_error_fraction=0.29845189
+cross_order_error_fraction=0.70154811
+adjacent_phase_error_fraction=0.40544778
+same_order_adjacent_phase_error_fraction=0.26200274
+
+[BY CN2]
+cn2=1.0000000036274937e-15, samples=4800, accuracy=1.00000000, errors=0, cross_order_fraction=nan, same_order_fraction=nan, adjacent_phase_fraction=nan
+cn2=2.499999956129175e-15, samples=4800, accuracy=1.00000000, errors=0, cross_order_fraction=nan, same_order_fraction=nan, adjacent_phase_fraction=nan
+cn2=4.99999991225835e-15, samples=4800, accuracy=0.99270833, errors=35, cross_order_fraction=0.00000000, same_order_fraction=1.00000000, adjacent_phase_fraction=1.00000000
+cn2=9.9999998245167e-15, samples=4800, accuracy=0.99708333, errors=14, cross_order_fraction=0.00000000, same_order_fraction=1.00000000, adjacent_phase_fraction=1.00000000
+cn2=2.499999956129175e-14, samples=4800, accuracy=0.87604167, errors=595, cross_order_fraction=0.61008403, same_order_fraction=0.38991597, adjacent_phase_fraction=0.48067227
+cn2=4.99999991225835e-14, samples=4800, accuracy=0.62083333, errors=1820, cross_order_fraction=0.76263736, same_order_fraction=0.23736264, adjacent_phase_fraction=0.31868132
+cn2=9.9999998245167e-14, samples=4800, accuracy=0.45020833, errors=2639, cross_order_fraction=0.69306556, same_order_fraction=0.30693444, adjacent_phase_fraction=0.43728685
+
+[BY DISTANCE]
+distance=250.0, samples=5600, accuracy=0.99982143, errors=1, cross_order_fraction=0.00000000, same_order_fraction=1.00000000, adjacent_phase_fraction=1.00000000
+distance=500.0, samples=11200, accuracy=0.93642857, errors=712, cross_order_fraction=0.31882022, same_order_fraction=0.68117978, adjacent_phase_fraction=0.78370787
+distance=750.0, samples=5600, accuracy=0.80767857, errors=1077, cross_order_fraction=0.68616527, same_order_fraction=0.31383473, adjacent_phase_fraction=0.34354689
+distance=1000.0, samples=11200, accuracy=0.70419643, errors=3313, cross_order_fraction=0.78901298, same_order_fraction=0.21098702, adjacent_phase_fraction=0.34409900
+
+[BY OCCLUSION]
+target_occlusion=0.0, samples=6720, accuracy=0.86517857, errors=906, cross_order_fraction=0.78476821, same_order_fraction=0.21523179, adjacent_phase_fraction=0.33333333
+target_occlusion=0.1, samples=6720, accuracy=0.85848214, errors=951, cross_order_fraction=0.73711882, same_order_fraction=0.26288118, adjacent_phase_fraction=0.35541535
+target_occlusion=0.2, samples=6720, accuracy=0.85089286, errors=1002, cross_order_fraction=0.73053892, same_order_fraction=0.26946108, adjacent_phase_fraction=0.38323353
+target_occlusion=0.3, samples=6720, accuracy=0.83958333, errors=1078, cross_order_fraction=0.68089054, same_order_fraction=0.31910946, adjacent_phase_fraction=0.43135436
+target_occlusion=0.4, samples=6720, accuracy=0.82648810, errors=1166, cross_order_fraction=0.60205832, same_order_fraction=0.39794168, adjacent_phase_fraction=0.49742710
+
+[BY SNR]
+target_snr_db=0.0, samples=6720, accuracy=0.84613095, errors=1034, cross_order_fraction=0.69729207, same_order_fraction=0.30270793, adjacent_phase_fraction=0.40522244
+target_snr_db=5.0, samples=6720, accuracy=0.84940476, errors=1012, cross_order_fraction=0.69960474, same_order_fraction=0.30039526, adjacent_phase_fraction=0.40909091
+target_snr_db=10.0, samples=6720, accuracy=0.84761905, errors=1024, cross_order_fraction=0.69824219, same_order_fraction=0.30175781, adjacent_phase_fraction=0.40820312
+target_snr_db=15.0, samples=6720, accuracy=0.84851190, errors=1018, cross_order_fraction=0.70530452, same_order_fraction=0.29469548, adjacent_phase_fraction=0.40275049
+target_snr_db=20.0, samples=6720, accuracy=0.84895833, errors=1015, cross_order_fraction=0.70738916, same_order_fraction=0.29261084, adjacent_phase_fraction=0.40197044
+
+[BY CN2 AND DISTANCE]
+cn2=1.0000000036274937e-15, distance=250.0, samples=800, accuracy=1.00000000, errors=0, cross_order_fraction=nan, same_order_fraction=nan, adjacent_phase_fraction=nan
+cn2=1.0000000036274937e-15, distance=500.0, samples=1600, accuracy=1.00000000, errors=0, cross_order_fraction=nan, same_order_fraction=nan, adjacent_phase_fraction=nan
+cn2=1.0000000036274937e-15, distance=750.0, samples=800, accuracy=1.00000000, errors=0, cross_order_fraction=nan, same_order_fraction=nan, adjacent_phase_fraction=nan
+cn2=1.0000000036274937e-15, distance=1000.0, samples=1600, accuracy=1.00000000, errors=0, cross_order_fraction=nan, same_order_fraction=nan, adjacent_phase_fraction=nan
+cn2=2.499999956129175e-15, distance=250.0, samples=800, accuracy=1.00000000, errors=0, cross_order_fraction=nan, same_order_fraction=nan, adjacent_phase_fraction=nan
+cn2=2.499999956129175e-15, distance=500.0, samples=1600, accuracy=1.00000000, errors=0, cross_order_fraction=nan, same_order_fraction=nan, adjacent_phase_fraction=nan
+cn2=2.499999956129175e-15, distance=750.0, samples=800, accuracy=1.00000000, errors=0, cross_order_fraction=nan, same_order_fraction=nan, adjacent_phase_fraction=nan
+cn2=2.499999956129175e-15, distance=1000.0, samples=1600, accuracy=1.00000000, errors=0, cross_order_fraction=nan, same_order_fraction=nan, adjacent_phase_fraction=nan
+cn2=4.99999991225835e-15, distance=250.0, samples=800, accuracy=1.00000000, errors=0, cross_order_fraction=nan, same_order_fraction=nan, adjacent_phase_fraction=nan
+cn2=4.99999991225835e-15, distance=500.0, samples=1600, accuracy=1.00000000, errors=0, cross_order_fraction=nan, same_order_fraction=nan, adjacent_phase_fraction=nan
+cn2=4.99999991225835e-15, distance=750.0, samples=800, accuracy=1.00000000, errors=0, cross_order_fraction=nan, same_order_fraction=nan, adjacent_phase_fraction=nan
+cn2=4.99999991225835e-15, distance=1000.0, samples=1600, accuracy=0.97812500, errors=35, cross_order_fraction=0.00000000, same_order_fraction=1.00000000, adjacent_phase_fraction=1.00000000
+cn2=9.9999998245167e-15, distance=250.0, samples=800, accuracy=1.00000000, errors=0, cross_order_fraction=nan, same_order_fraction=nan, adjacent_phase_fraction=nan
+cn2=9.9999998245167e-15, distance=500.0, samples=1600, accuracy=0.99937500, errors=1, cross_order_fraction=0.00000000, same_order_fraction=1.00000000, adjacent_phase_fraction=1.00000000
+cn2=9.9999998245167e-15, distance=750.0, samples=800, accuracy=1.00000000, errors=0, cross_order_fraction=nan, same_order_fraction=nan, adjacent_phase_fraction=nan
+cn2=9.9999998245167e-15, distance=1000.0, samples=1600, accuracy=0.99187500, errors=13, cross_order_fraction=0.00000000, same_order_fraction=1.00000000, adjacent_phase_fraction=1.00000000
+cn2=2.499999956129175e-14, distance=250.0, samples=800, accuracy=1.00000000, errors=0, cross_order_fraction=nan, same_order_fraction=nan, adjacent_phase_fraction=nan
+cn2=2.499999956129175e-14, distance=500.0, samples=1600, accuracy=0.99687500, errors=5, cross_order_fraction=0.00000000, same_order_fraction=1.00000000, adjacent_phase_fraction=1.00000000
+cn2=2.499999956129175e-14, distance=750.0, samples=800, accuracy=0.90500000, errors=76, cross_order_fraction=0.00000000, same_order_fraction=1.00000000, adjacent_phase_fraction=1.00000000
+cn2=2.499999956129175e-14, distance=1000.0, samples=1600, accuracy=0.67875000, errors=514, cross_order_fraction=0.70622568, same_order_fraction=0.29377432, adjacent_phase_fraction=0.39883268
+cn2=4.99999991225835e-14, distance=250.0, samples=800, accuracy=0.99875000, errors=1, cross_order_fraction=0.00000000, same_order_fraction=1.00000000, adjacent_phase_fraction=1.00000000
+cn2=4.99999991225835e-14, distance=500.0, samples=1600, accuracy=0.93937500, errors=97, cross_order_fraction=0.00000000, same_order_fraction=1.00000000, adjacent_phase_fraction=1.00000000
+cn2=4.99999991225835e-14, distance=750.0, samples=800, accuracy=0.67125000, errors=263, cross_order_fraction=0.57414449, same_order_fraction=0.42585551, adjacent_phase_fraction=0.43346008
+cn2=4.99999991225835e-14, distance=1000.0, samples=1600, accuracy=0.08812500, errors=1459, cross_order_fraction=0.84784099, same_order_fraction=0.15215901, adjacent_phase_fraction=0.25222755
+cn2=9.9999998245167e-14, distance=250.0, samples=800, accuracy=1.00000000, errors=0, cross_order_fraction=nan, same_order_fraction=nan, adjacent_phase_fraction=nan
+cn2=9.9999998245167e-14, distance=500.0, samples=1600, accuracy=0.61937500, errors=609, cross_order_fraction=0.37274220, same_order_fraction=0.62725780, adjacent_phase_fraction=0.74712644
+cn2=9.9999998245167e-14, distance=750.0, samples=800, accuracy=0.07750000, errors=738, cross_order_fraction=0.79674797, same_order_fraction=0.20325203, adjacent_phase_fraction=0.24390244
+cn2=9.9999998245167e-14, distance=1000.0, samples=1600, accuracy=0.19250000, errors=1292, cross_order_fraction=0.78482972, same_order_fraction=0.21517028, adjacent_phase_fraction=0.40170279
+
+[OUTPUTS]
+E:\OAM_MC_VWLS_Project\results\csv\mc_vwls_error_types_by_cn2.csv
+E:\OAM_MC_VWLS_Project\results\csv\mc_vwls_error_types_by_distance.csv
+E:\OAM_MC_VWLS_Project\results\csv\mc_vwls_error_types_by_occlusion.csv
+E:\OAM_MC_VWLS_Project\results\csv\mc_vwls_error_types_by_snr.csv
+E:\OAM_MC_VWLS_Project\results\csv\mc_vwls_error_types_by_cn2_distance.csv

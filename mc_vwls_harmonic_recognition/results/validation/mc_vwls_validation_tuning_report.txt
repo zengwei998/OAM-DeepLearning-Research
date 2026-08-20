@@ -1,0 +1,30 @@
+MC-VWLS validation-set tuning report
+Dataset: E:\OAM_MC_VWLS_Project\data\generated\occlusion_clean_v2.h5
+Split: E:\OAM_MC_VWLS_Project\data\manifest\sample_split_v1.npz
+Validation clean samples: 6720
+Validation noisy observations: 33600
+Parameter combinations: 120
+
+[BEST PARAMETERS]
+weight_power=0.50000000
+visibility_threshold=0.00000000
+regularization=0.0000000000e+00
+label_accuracy=0.89568452
+order_accuracy=0.93434524
+phase_accuracy=0.90577381
+mean_phase_bin_error=0.17961310
+mean_confidence=0.60394199
+
+[TOP 10]
+rank=1, weight_power=0.50, visibility_threshold=0.00, regularization=0.0e+00, label_accuracy=0.89568452, order_accuracy=0.93434524, phase_accuracy=0.90577381, mean_phase_bin_error=0.17961310
+rank=2, weight_power=0.50, visibility_threshold=0.00, regularization=1.0e-08, label_accuracy=0.89568452, order_accuracy=0.93434524, phase_accuracy=0.90577381, mean_phase_bin_error=0.17961310
+rank=3, weight_power=0.50, visibility_threshold=0.00, regularization=1.0e-06, label_accuracy=0.89568452, order_accuracy=0.93434524, phase_accuracy=0.90577381, mean_phase_bin_error=0.17961310
+rank=4, weight_power=0.50, visibility_threshold=0.00, regularization=1.0e-04, label_accuracy=0.89568452, order_accuracy=0.93434524, phase_accuracy=0.90577381, mean_phase_bin_error=0.17961310
+rank=5, weight_power=0.50, visibility_threshold=0.02, regularization=0.0e+00, label_accuracy=0.89568452, order_accuracy=0.93434524, phase_accuracy=0.90577381, mean_phase_bin_error=0.17961310
+rank=6, weight_power=0.50, visibility_threshold=0.02, regularization=1.0e-08, label_accuracy=0.89568452, order_accuracy=0.93434524, phase_accuracy=0.90577381, mean_phase_bin_error=0.17961310
+rank=7, weight_power=0.50, visibility_threshold=0.02, regularization=1.0e-06, label_accuracy=0.89568452, order_accuracy=0.93434524, phase_accuracy=0.90577381, mean_phase_bin_error=0.17961310
+rank=8, weight_power=0.50, visibility_threshold=0.02, regularization=1.0e-04, label_accuracy=0.89568452, order_accuracy=0.93434524, phase_accuracy=0.90577381, mean_phase_bin_error=0.17961310
+rank=9, weight_power=0.50, visibility_threshold=0.05, regularization=0.0e+00, label_accuracy=0.89568452, order_accuracy=0.93434524, phase_accuracy=0.90577381, mean_phase_bin_error=0.17961310
+rank=10, weight_power=0.50, visibility_threshold=0.05, regularization=1.0e-08, label_accuracy=0.89568452, order_accuracy=0.93434524, phase_accuracy=0.90577381, mean_phase_bin_error=0.17961310
+
+CSV: E:\OAM_MC_VWLS_Project\results\csv\mc_vwls_validation_grid.csv

@@ -1,0 +1,33 @@
+Leakage-free grouped split validation report
+Source dataset: E:\OAM_MC_VWLS_Project\data\generated\occlusion_clean_v2.h5
+Global split seed: 20260804
+
+train:
+  samples=31360
+  groups=196
+  labels=32
+  label_count_min/max=980/980
+  target_occlusion_levels=[0.0, 0.1, 0.2, 0.3, 0.4]
+  target_count_min/max=6272/6272
+validation:
+  samples=6720
+  groups=42
+  labels=32
+  label_count_min/max=210/210
+  target_occlusion_levels=[0.0, 0.1, 0.2, 0.3, 0.4]
+  target_count_min/max=1344/1344
+test:
+  samples=6720
+  groups=42
+  labels=32
+  label_count_min/max=210/210
+  target_occlusion_levels=[0.0, 0.1, 0.2, 0.3, 0.4]
+  target_count_min/max=1344/1344
+
+Leakage tests:
+  train-validation group overlap=0
+  train-test group overlap=0
+  validation-test group overlap=0
+  leaked base fields=0
+
+SPLIT STATUS: PASS

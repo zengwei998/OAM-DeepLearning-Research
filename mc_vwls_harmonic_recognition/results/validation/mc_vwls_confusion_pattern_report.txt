@@ -1,0 +1,43 @@
+MC-VWLS confusion-pattern report
+Count matrix: E:\OAM_MC_VWLS_Project\results\csv\mc_vwls_confusion_matrix_counts.csv
+
+[GLOBAL]
+Total observations: 33600
+Correct observations: 28497
+Error observations: 5103
+Overall accuracy: 0.84812500
+Same-order errors: 1523 (0.29845189)
+Cross-order errors: 3580 (0.70154811)
+Adjacent-phase errors: 2069 (0.40544778)
+Same-order adjacent-phase errors: 1337 (0.26200274)
+
+[BY OAM ORDER]
+order=1, samples=8400, label_accuracy=0.85678571, order_accuracy=0.96226190, phase_accuracy=0.85678571
+order=2, samples=8400, label_accuracy=0.85523810, order_accuracy=0.90059524, phase_accuracy=0.86726190
+order=3, samples=8400, label_accuracy=0.85285714, order_accuracy=0.86619048, phase_accuracy=0.85857143
+order=4, samples=8400, label_accuracy=0.82761905, order_accuracy=0.84476190, phase_accuracy=0.84904762
+
+[TOP 20 CONFUSIONS]
+01. l=1,p=5 -> l=1,p=4, count=173, fraction_of_true_class=0.16476190, same_order=1, phase_distance=1
+02. l=1,p=6 -> l=1,p=5, count=133, fraction_of_true_class=0.12666667, same_order=1, phase_distance=1
+03. l=2,p=3 -> l=1,p=4, count=114, fraction_of_true_class=0.10857143, same_order=0, phase_distance=1
+04. l=1,p=1 -> l=1,p=2, count=109, fraction_of_true_class=0.10380952, same_order=1, phase_distance=1
+05. l=1,p=2 -> l=1,p=3, count=105, fraction_of_true_class=0.10000000, same_order=1, phase_distance=1
+06. l=2,p=2 -> l=1,p=4, count=100, fraction_of_true_class=0.09523810, same_order=0, phase_distance=2
+07. l=4,p=4 -> l=1,p=4, count=88, fraction_of_true_class=0.08380952, same_order=0, phase_distance=0
+08. l=2,p=4 -> l=1,p=4, count=83, fraction_of_true_class=0.07904762, same_order=0, phase_distance=0
+09. l=4,p=3 -> l=1,p=4, count=83, fraction_of_true_class=0.07904762, same_order=0, phase_distance=1
+10. l=4,p=5 -> l=1,p=4, count=82, fraction_of_true_class=0.07809524, same_order=0, phase_distance=1
+11. l=4,p=2 -> l=1,p=4, count=78, fraction_of_true_class=0.07428571, same_order=0, phase_distance=2
+12. l=3,p=7 -> l=1,p=4, count=74, fraction_of_true_class=0.07047619, same_order=0, phase_distance=3
+13. l=1,p=7 -> l=1,p=6, count=73, fraction_of_true_class=0.06952381, same_order=1, phase_distance=1
+14. l=2,p=5 -> l=2,p=6, count=70, fraction_of_true_class=0.06666667, same_order=1, phase_distance=1
+15. l=4,p=1 -> l=1,p=4, count=69, fraction_of_true_class=0.06571429, same_order=0, phase_distance=3
+16. l=2,p=0 -> l=2,p=7, count=66, fraction_of_true_class=0.06285714, same_order=1, phase_distance=1
+17. l=4,p=6 -> l=1,p=4, count=63, fraction_of_true_class=0.06000000, same_order=0, phase_distance=2
+18. l=4,p=0 -> l=1,p=4, count=62, fraction_of_true_class=0.05904762, same_order=0, phase_distance=4
+19. l=1,p=4 -> l=1,p=3, count=59, fraction_of_true_class=0.05619048, same_order=1, phase_distance=1
+20. l=4,p=7 -> l=1,p=4, count=56, fraction_of_true_class=0.05333333, same_order=0, phase_distance=3
+
+Summary CSV: E:\OAM_MC_VWLS_Project\results\csv\mc_vwls_confusion_pattern_summary.csv
+Top-confusion CSV: E:\OAM_MC_VWLS_Project\results\csv\mc_vwls_top_confusions.csv

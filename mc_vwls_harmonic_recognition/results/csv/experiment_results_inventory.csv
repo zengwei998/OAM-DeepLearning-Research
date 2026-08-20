@@ -1,0 +1,90 @@
+﻿category,relative_path,description,required,exists,is_file,status,size_bytes,size_display,csv_data_rows,modified_time,sha256
+additional,results/csv/ablation_accuracy_confidence_intervals.csv,Additional generated experiment output,0,1,1,PASS,1473,1.438 KiB,12,2026-08-04T19:43:10,f6904509613ccd627c54fde061337791afd1487556efba9f7510a8eeb9762e28
+additional,results/csv/ablation_by_cn2_distance.csv,Additional generated experiment output,0,1,1,PASS,10340,10.098 KiB,112,2026-08-04T19:41:15,8d92423707e8605d11261fcf23536d60875c654b8cb2f5dd49be0ad6d3acd89f
+additional,results/csv/ablation_by_cn2_distance_occlusion.csv,Additional generated experiment output,0,1,1,PASS,49572,48.410 KiB,560,2026-08-04T19:41:15,08798952384af2ad689f2053ff474f6bf9de34d94c93f0bb97451877ee41c8e6
+additional,results/csv/ablation_pairwise_statistics.csv,Additional generated experiment output,0,1,1,PASS,4769,4.657 KiB,18,2026-08-04T19:43:10,f09c25d7bbd69bfcff18e8408dfa9fc00ed39d4463b51176faf7d39da5c4ac12
+additional,results/csv/mc_vwls_confusion_pattern_summary.csv,Additional generated experiment output,0,1,1,PASS,1734,1.693 KiB,42,2026-08-04T20:04:40,1e30dc59322b2480ebfd0989971e8df0551b75ef597ec7372f886ea8646a88be
+additional,results/csv/mc_vwls_error_types_by_cn2.csv,Additional generated experiment output,0,1,1,PASS,1671,1.632 KiB,7,2026-08-04T20:08:48,2f65fe6ab0694c7c8bd18611f854f3de16a787fa9feb6f93b4e64e1e3f43d7fc
+additional,results/csv/mc_vwls_error_types_by_cn2_distance.csv,Additional generated experiment output,0,1,1,PASS,3914,3.822 KiB,28,2026-08-04T20:08:48,5939be8a921a650c7bf7b3b3d09ec3bb3119b635512a603c1f363e6f274cca3b
+additional,results/csv/mc_vwls_error_types_by_distance.csv,Additional generated experiment output,0,1,1,PASS,1321,1.290 KiB,4,2026-08-04T20:08:48,742524bed8a2bed3c0c179c94922c5ed878b1b918647151df0721b5354c44849
+additional,results/csv/mc_vwls_error_types_by_occlusion.csv,Additional generated experiment output,0,1,1,PASS,1652,1.613 KiB,5,2026-08-04T20:08:48,4a33acdfb754db7e58a362f61b43ab546599e4219ab3157df98276adbfbbd22a
+additional,results/csv/mc_vwls_error_types_by_snr.csv,Additional generated experiment output,0,1,1,PASS,1612,1.574 KiB,5,2026-08-04T20:08:48,8b8fdfed8640a2a65e7e7bc031c193476bcc295032ed0359441f453f2ea79ef9
+additional,results/csv/mc_vwls_full_test_predictions.csv,Additional generated experiment output,0,1,1,PASS,6136012,5.852 MiB,33600,2026-08-04T18:20:43,b79d2fb9300f5312553572d9337397419620d2e2f56e049b722971deb881ddcd
+additional,results/csv/mc_vwls_subset_predictions.csv,Additional generated experiment output,0,1,1,PASS,1868637,1.782 MiB,10240,2026-08-04T18:14:45,a5d7ce4ab0a7ef0a2efbb780bf4cfa8d32903f24ea555f73b0903f06b1147578
+additional,results/csv/mc_vwls_top_confusions.csv,Additional generated experiment output,0,1,1,PASS,1246,1.217 KiB,20,2026-08-04T20:04:40,4c8a700271f5b865a1af19ab980e767055f226b0b93a7e559c07666c05fa86f8
+additional,results/csv/mc_vwls_tuned_full_test_predictions.csv,Additional generated experiment output,0,1,1,PASS,6136401,5.852 MiB,33600,2026-08-04T19:27:15,73b4cc4defa56cb24580edf658a43b4b1a0a4744d99d1f20b25c4b516f5c5540
+additional,results/csv/mc_vwls_validation_grid.csv,Additional generated experiment output,0,1,1,PASS,14491,14.151 KiB,120,2026-08-04T19:17:54,a1af8fe98df68e99683c5223e2d7ec3e98dc8b9177c27cca5197e33deb252af9
+additional,results/csv/occlusion_level_summary.csv,Additional generated experiment output,0,1,1,PASS,1313,1.282 KiB,5,2026-08-04T17:06:28,4767c7d60e9da8a2f9d8a76dc66d0377b4ba2bd28974d0a0bdda906067c206db
+additional,results/csv/receiver_noise_qc.csv,Additional generated experiment output,0,1,1,PASS,1954,1.908 KiB,5,2026-08-04T17:34:09,e73cbd3ee9b8e213f8be10f10a755910c7798e60429f7c557aea40e1db18acfc
+additional,results/csv/traditional_methods_full_test_predictions.csv,Additional generated experiment output,0,1,1,PASS,14452730,13.783 MiB,100800,2026-08-04T18:44:40,e1640f016c96de90b958f5500bc994fd9b511a5805e57cb525c72f1bc408bdaf
+additional,results/csv/traditional_methods_summary.csv,Additional generated experiment output,0,1,1,PASS,13497,13.181 KiB,108,2026-08-04T18:44:40,85e1b98270070cd01aaedbcc5e4bda5fb859e0a3732ebf74cf10d2fa303fbe38
+additional,results/figures/Fig1_state_space.png,Additional generated experiment output,0,1,1,PASS,406264,396.742 KiB,,2026-07-30T17:54:40,595fd92b9f62af6780f952f870ce6c05d99b0dd472b8f783cd210e8739fea6fb
+additional,results/figures/fig_accuracy_vs_occlusion.pdf,Additional generated experiment output,0,1,1,PASS,17093,16.692 KiB,,2026-08-04T19:45:00,64985ebff0df9117f6240bc0c0bbb7160571d3fb54d5491deacc8c30c1972fb7
+additional,results/figures/fig_accuracy_vs_occlusion.png,Additional generated experiment output,0,1,1,PASS,199682,195.002 KiB,,2026-08-04T19:45:00,28d7f9f653de925f79707f9a17149f576dc3595f5b88c782b4134828797e5335
+additional,results/figures/fig_accuracy_vs_snr.pdf,Additional generated experiment output,0,1,1,PASS,18732,18.293 KiB,,2026-08-04T19:45:00,eb14391c65e77011662fb5e980f30c8bd1c1d072b1a0942dcc6de6c5d4528c7d
+additional,results/figures/fig_accuracy_vs_snr.png,Additional generated experiment output,0,1,1,PASS,195326,190.748 KiB,,2026-08-04T19:45:00,7a5b2899f80b00af65d2f534e5bd3a0edfe0b3eb3359c0939f8f131f60906a2f
+additional,results/figures/fig_mc_vwls_cn2_distance_heatmap.pdf,Additional generated experiment output,0,1,1,PASS,18099,17.675 KiB,,2026-08-04T19:45:00,afca2b18f9bf032813033e9bd5e129b4f2f86edcd6b129540a8338bd47efd6c1
+additional,results/figures/fig_method_overall_accuracy.pdf,Additional generated experiment output,0,1,1,PASS,13241,12.931 KiB,,2026-08-04T19:44:59,304781761b5a90854fa4bf36576dfbe709865f0408f68b8ed7dda266c653e27a
+additional,results/figures/fig_method_overall_accuracy.png,Additional generated experiment output,0,1,1,PASS,83168,81.219 KiB,,2026-08-04T19:44:59,c7973d89386a11d58b53149d5f807fbf6ee8f2a817120003feb432c968187944
+additional,results/figures/fig_occlusion_qc.pdf,Additional generated experiment output,0,1,1,PASS,563552,550.344 KiB,,2026-08-04T17:06:31,24c5d5962c4927dcdca6dc6a2fbca2fdfaca42ea4c7b8eb471c6678202ce85f0
+additional,results/figures/fig_occlusion_qc.png,Additional generated experiment output,0,1,1,PASS,950349,928.075 KiB,,2026-08-04T17:06:30,aad683a7bc98ea0a9d6dde0ef616d0eea700bd5e5579ea410d47f1f0deb0cbfb
+additional,results/figures/fig_receiver_noise_qc.pdf,Additional generated experiment output,0,1,1,PASS,565097,551.853 KiB,,2026-08-04T17:34:11,41a5b368770806e43a105b5fbbbb3f7c1044100733e7aded2823b7fc4780b902
+additional,results/figures/fig_receiver_noise_qc.png,Additional generated experiment output,0,1,1,PASS,1535165,1.464 MiB,,2026-08-04T17:34:10,df4854e93aeb8a7cbaac9ff6209e2f94a624ee691b9324c729b67f5792a39d4d
+additional,results/tables/Table1_dataset_statistics.csv,Additional generated experiment output,0,1,1,PASS,945,945.000 B,15,2026-08-04T19:50:16,e969332263ec2a9355fe7b6f0b3ac2271000033b47ce733b40c682dfe4aa03b4
+additional,results/tables/Table2_occlusion_validation.csv,Additional generated experiment output,0,1,1,PASS,753,753.000 B,5,2026-08-04T19:50:16,c05730bc17356cd991a88ed0719983637f1d5bee4e5531509cecc7d7b56ee972
+additional,results/tables/Table3_noise_validation.csv,Additional generated experiment output,0,1,1,PASS,630,630.000 B,5,2026-08-04T19:50:16,448ac7b335c890a0842d9729fe6363348f6a8ecf9bf6de0d81990c2da30163e3
+additional,results/tables/Table4_main_results.csv,Additional generated experiment output,0,1,1,PASS,532,532.000 B,4,2026-08-04T19:50:16,40b8e90cdd0160d57fab6717bd8078706e91987f74e86732e0d0fc459a2a91ee
+additional,results/tables/Table5_ablation_results.csv,Additional generated experiment output,0,1,1,PASS,807,807.000 B,4,2026-08-04T19:50:16,8a92002b4f7290592220608a8d5d0e2107ca63d34c6ece3b701d6caa48ec1473
+additional,results/tables/Table6_cn2_distance_results.csv,Additional generated experiment output,0,1,1,PASS,1866,1.822 KiB,28,2026-08-04T19:50:16,253afe3bb679804e71d9da47d54f7a25b436ba9a875d02ceefdcd14c9d256139
+additional,results/tables/Table7_statistical_significance.csv,Additional generated experiment output,0,1,1,PASS,911,911.000 B,6,2026-08-04T19:50:16,e6cdfc51b2163102f2a4633f75a7806cfcc8f1c37448bd50dcb21a433ec9c865
+additional,results/validation/ablation_by_cn2_distance_report.txt,Additional generated experiment output,0,1,1,PASS,2354,2.299 KiB,,2026-08-04T19:41:15,125e81701ecc2fa434f7482f8dea51e36c04a883d0ea1f14afb2958cdef8f70a
+additional,results/validation/ablation_statistical_report.txt,Additional generated experiment output,0,1,1,PASS,3284,3.207 KiB,,2026-08-04T19:43:10,250f4e22b22a182d486e0ac193d140ce0883909fde3054cd72e01bcbbaff75a3
+additional,results/validation/baseline_check.txt,Additional generated experiment output,0,1,1,PASS,1902,1.857 KiB,,2026-08-04T18:32:18,d9d845c9c1bf7e30d7bea9312b2686b852e246a4966c14bc5c9d937dc17693d3
+additional,results/validation/condition_columns_report.txt,Additional generated experiment output,0,1,1,PASS,4397,4.294 KiB,,2026-08-04T19:39:24,25e52060f36ce8884c51cb8f63cd4d68b1c4a20c8d5ffdca63512c7b4df1baee
+additional,results/validation/experiment_manifest.csv,Additional generated experiment output,0,1,1,PASS,253903,247.952 KiB,1392,2026-08-04T19:54:06,e7a6c223d5e6b6001bfaca6cdb8b442c33389e99df9d8302101c3891680b56aa
+additional,results/validation/experiment_manifest_report.txt,Additional generated experiment output,0,1,1,PASS,4193,4.095 KiB,,2026-08-04T19:54:06,1ab63e3457db939b34263d68d2fb636807344e09b10b6d5a02dd5b0ae1ae63a2
+additional,results/validation/group_split_v1_report.txt,Additional generated experiment output,0,1,1,PASS,827,827.000 B,,2026-08-04T17:14:37,b29da45dc3d8ade9389e47fa1457701336ca3c8226699b759b3de66adab6ab1e
+additional,results/validation/h5_physics_audit.txt,Additional generated experiment output,0,1,1,PASS,3764,3.676 KiB,,2026-08-04T13:56:47,4c6157de3dae1a093653befdd86eae2539c1a543de1117aa6552d938ffba5640
+additional,results/validation/harmonic_fit_check.txt,Additional generated experiment output,0,1,1,PASS,2322,2.268 KiB,,2026-08-04T18:08:05,3665947906aa5f6e6a5e151f07b08e8b958359e20b7c067dd0269029834b650c
+additional,results/validation/mc_vwls_confusion_matrix_report.txt,Additional generated experiment output,0,1,1,PASS,623,623.000 B,,2026-08-04T20:01:31,c18ef0170fd1e70c4261523e114d8435c5d790e5f719caa2eda500ed4203891e
+additional,results/validation/mc_vwls_confusion_pattern_report.txt,Additional generated experiment output,0,1,1,PASS,3068,2.996 KiB,,2026-08-04T20:04:40,9112931f7279ddde3354f95898b316b8c9da505386f48d3bfed1a167ed6eea16
+additional,results/validation/mc_vwls_error_types_by_condition_report.txt,Additional generated experiment output,0,1,1,PASS,9431,9.210 KiB,,2026-08-04T20:08:48,edbd3353dc2bd0ca98ac1c8a428206462cd334d6825ee0a7f5c3b23d607e449e
+additional,results/validation/mc_vwls_full_test_report.txt,Additional generated experiment output,0,1,1,PASS,4835,4.722 KiB,,2026-08-04T18:20:46,3445b279054f5c2e1d85200e21761da86cfc127dd8abe3c46d771ec1f5ae4f6d
+additional,results/validation/mc_vwls_subset_report.txt,Additional generated experiment output,0,1,1,PASS,1094,1.068 KiB,,2026-08-04T18:14:45,e5c275d0fde4cc16e68968189c5159d1312468284c059266727a67cca6bec51e
+additional,results/validation/mc_vwls_tuned_full_test_report.txt,Additional generated experiment output,0,1,1,PASS,5415,5.288 KiB,,2026-08-04T19:27:17,07975e373e0cd3341f6cde342c55c54061b8329bcf15235973382cc218ca1080
+additional,results/validation/mc_vwls_validation_tuning_report.txt,Additional generated experiment output,0,1,1,PASS,2528,2.469 KiB,,2026-08-04T19:17:54,23033109d47ba93ec460fef2bb97fe406c116882d2090e9cf4b8c5f143e32eee
+additional,results/validation/occlusion_qc_report.txt,Additional generated experiment output,0,1,1,PASS,1713,1.673 KiB,,2026-08-04T17:06:31,7e4dc7e92683654ad90edee030a1d499cfb0d6e451f0f57935aec404bf4b4892
+additional,results/validation/occlusion_v2_audit.txt,Additional generated experiment output,0,1,1,PASS,4715,4.604 KiB,,2026-08-04T17:04:25,cda985d2c0ebbda814f42c48229b2651cd549bebde5d4a9a6a458e7bb974f8ca
+additional,results/validation/paper_output_validation_report.txt,Additional generated experiment output,0,1,1,PASS,1802,1.760 KiB,,2026-08-04T19:52:07,77805d62c6665d5602c206e2f1f74b802fde91664460a6c04d092106ecfdddae
+additional,results/validation/paper_tables_report.txt,Additional generated experiment output,0,1,1,PASS,1036,1.012 KiB,,2026-08-04T19:50:16,e2e0a5e2dc91f11ae852e5e17c38c6c3351189e58e939cf8138322a0fce74061
+additional,results/validation/polar_sampling_check.txt,Additional generated experiment output,0,1,1,PASS,927,927.000 B,,2026-08-04T17:51:07,cd78ad1a1531575006a3dfcb59f6873e1df7eebfb3e078510346ddecddc06620
+additional,results/validation/receiver_noise_check.txt,Additional generated experiment output,0,1,1,PASS,3170,3.096 KiB,,2026-08-04T17:26:36,af72637ed866e247ccce09b0e662fb6dc7de37001531b83805a6bb5cd292d32c
+additional,results/validation/receiver_noise_qc_report.txt,Additional generated experiment output,0,1,1,PASS,1089,1.063 KiB,,2026-08-04T17:34:11,e5d6b153db7c5d2d42bacd1cd9b6a92dfa4aaffe7e773cb5bea8b2e11e8990d2
+additional,results/validation/traditional_methods_full_test_report.txt,Additional generated experiment output,0,1,1,PASS,1873,1.829 KiB,,2026-08-04T18:44:40,5aebe2ffe34a7e052456d0e3d3fa19cc76a61db0d8328b3bbdafbdce498d37b1
+condition,results/csv/mc_vwls_cn2_distance_accuracy.csv,Cn2-distance condition accuracy,0,0,0,MISSING_OPTIONAL,0,0.000 B,,,
+confusion,results/csv/mc_vwls_confusion_matrix_counts.csv,Confusion-matrix counts,1,1,1,PASS,2938,2.869 KiB,32,2026-08-04T20:01:30,12fb2eee2acc1a1aac20e7c84cd9e09a4073027d6543e93e493b1a3669b4f5de
+confusion,results/csv/mc_vwls_confusion_matrix_normalized.csv,Normalized confusion matrix,1,1,1,PASS,11951,11.671 KiB,32,2026-08-04T20:01:30,c90b9ebf3906a32853212e8479444b211b4c729ecdf09682c2bb85f2f9fe0fb4
+confusion,results/figures/fig_mc_vwls_confusion_matrix.pdf,Confusion-matrix vector figure,1,1,1,PASS,24475,23.901 KiB,,2026-08-04T20:01:31,7a71635b34fba6a5e3e251b8379be9837e4d35d42b88c0f65ca2dd2d8333f53e
+confusion,results/figures/fig_mc_vwls_confusion_matrix.png,Confusion-matrix figure,1,1,1,PASS,206024,201.195 KiB,,2026-08-04T20:01:31,bc598e7211237272500ff8b161da549f087826a4c4c986e71b62154a4154dd5f
+dataset,data/generated/occlusion_clean_v2.h5,Frozen occlusion dataset,1,1,1,PASS,9243575928,8.609 GiB,,2026-08-04T14:28:02,9616af15367c1d79ab531a78be4165864afccac17425691dd03e99e2c28ef272
+dataset,data/generated/turbulence_base_v1.h5,Frozen turbulence base fields,1,1,1,PASS,4369442480,4.069 GiB,,2026-08-04T14:06:59,c5a00efe95ea8423b89bcecc02ae3861b4f193057a7c5e413539b3ce8455a037
+failure_case,results/csv/mc_vwls_selected_failure_cases.csv,Selected representative failure cases,1,1,1,PASS,2035,1.987 KiB,4,2026-08-05T12:22:55,0eaf59e42a52a3b3889a94e5329e401ee1357d98f496b3c12c12eb1009a544e4
+failure_case,results/figures/fig_mc_vwls_failure_cases.pdf,Representative failure-case PDF,1,1,1,PASS,297533,290.560 KiB,,2026-08-05T12:22:56,3316385ca51e3c7ab4cd406bd953fbbe4e53a811b9362ae980c277d9a4f537af
+failure_case,results/figures/fig_mc_vwls_failure_cases.png,Representative failure-case figure,1,1,1,PASS,1097182,1.046 MiB,,2026-08-05T12:22:55,dcb1751b659523ab1d478282d13a8ceccf3d47addc9931df2638f8c7fe2ed1da
+failure_case,results/validation/mc_vwls_failure_cases_report.txt,Representative failure-case report,1,1,1,PASS,1665,1.626 KiB,,2026-08-05T12:22:56,8b70cb26f001a98d10f3cedd9b54209bd25e482e8fb185dc0c3e56d3359c37bb
+figure,results/figures/fig_mc_vwls_cn2_distance_heatmap.png,Cn2-distance heatmap,0,1,1,PASS,144441,141.056 KiB,,2026-08-04T19:45:00,d0493e245b4d143942a3847d0184a509d24b1903067bfec5b2e5ca8d2d485f9b
+figure,results/figures/fig_mc_vwls_occlusion_accuracy.png,Occlusion-accuracy figure,0,0,0,MISSING_OPTIONAL,0,0.000 B,,,
+figure,results/figures/fig_mc_vwls_overall_accuracy.png,Overall-accuracy figure,0,0,0,MISSING_OPTIONAL,0,0.000 B,,,
+figure,results/figures/fig_mc_vwls_snr_accuracy.png,SNR-accuracy figure,0,0,0,MISSING_OPTIONAL,0,0.000 B,,,
+paper,docs/experiment_results_draft.md,Experimental-results draft,1,1,1,PASS,21935,21.421 KiB,,2026-08-04T20:10:49,03ee4acce12b4cedc4697e232e0f358444c509a63e809690e309085137465c65
+prediction,results/csv/mc_vwls_ablation_full_test_predictions.csv,Full-test ablation predictions,1,1,1,PASS,24903216,23.750 MiB,134400,2026-08-04T19:36:17,120ef2c7241854190ac9b0ce34fe906d3a9209e1e3cdb6fef1b349161cb3b99a
+report,results/validation/mc_vwls_ablation_full_test_report.txt,Full-test ablation validation report,1,1,1,PASS,5944,5.805 KiB,,2026-08-04T19:36:17,f30806ec7d0180077a7181f69c4167eacb38c7f40ffa7e90166c57ce564c2344
+runtime,results/csv/mc_vwls_complexity_summary.csv,Computational-complexity table,1,1,1,PASS,843,843.000 B,4,2026-08-05T12:26:25,8af1073f194095829461181dd60d98f894e1efeb29241093efe121080fb27503
+runtime,results/csv/mc_vwls_runtime_benchmark.csv,Runtime benchmark table,1,1,1,PASS,1984,1.938 KiB,8,2026-08-05T12:26:25,24dd7e402e5f810a936ce7443b1f3a895eae001dbd4c0c28b2d67f5d8cca6d6e
+runtime,results/figures/fig_mc_vwls_runtime.pdf,Runtime comparison PDF,1,1,1,PASS,67028,65.457 KiB,,2026-08-05T12:26:25,6b9db2d4f14c49855713b4ad5b89211bfa3f36dc4d7bfd95c8f6bf44c20b5481
+runtime,results/figures/fig_mc_vwls_runtime.png,Runtime comparison figure,1,1,1,PASS,33341,32.560 KiB,,2026-08-05T12:26:25,655a0190f9e23931846a8d9ebf79ad99f8486d27e364abe9ee2b436b5399338f
+runtime,results/validation/mc_vwls_runtime_complexity_report.txt,Runtime and complexity report,1,1,1,PASS,3181,3.106 KiB,,2026-08-05T12:26:25,02fcddf4a7305384d8d1d45047d5a1315e2b09e9d7be52bd6097892cd722d859
+split,data/manifest/sample_split_v1.npz,Grouped train-validation-test split,1,1,1,PASS,22641,22.110 KiB,,2026-08-04T17:14:37,48cc0bd88f40e7372f69c7601f6144f9d8214e2cc31353d507367879c3baae1b
+statistics,results/csv/mc_vwls_statistical_comparison.csv,Pairwise statistical comparison,0,0,0,MISSING_OPTIONAL,0,0.000 B,,,
+statistics,results/validation/mc_vwls_statistical_comparison_report.txt,Statistical-comparison report,0,0,0,MISSING_OPTIONAL,0,0.000 B,,,
+summary,results/csv/mc_vwls_ablation_summary.csv,Full-test ablation summary,1,1,1,PASS,24509,23.935 KiB,160,2026-08-04T19:36:17,c24a6cfad5fadce9ff8301aad1511c2da74d04ed405c538b6e6f830618591604

@@ -1,0 +1,73 @@
+Experiment-results inventory validation
+
+[SUMMARY]
+Status=PASS
+Expected outputs=27
+Required outputs=20
+Required outputs present=20
+Optional outputs=7
+Optional outputs present=1
+Additional discovered outputs=62
+Existing inventoried files=83
+Empty files=0
+Total inventoried size=12.734 GiB
+
+[CATEGORY COUNTS]
+additional=62
+confusion=4
+dataset=2
+failure_case=4
+figure=1
+paper=1
+prediction=1
+report=1
+runtime=5
+split=1
+summary=1
+
+[MISSING REQUIRED OUTPUTS]
+None
+
+[MISSING OPTIONAL OUTPUTS]
+MISSING_OPTIONAL: results/csv/mc_vwls_cn2_distance_accuracy.csv — Cn2-distance condition accuracy
+MISSING_OPTIONAL: results/figures/fig_mc_vwls_occlusion_accuracy.png — Occlusion-accuracy figure
+MISSING_OPTIONAL: results/figures/fig_mc_vwls_overall_accuracy.png — Overall-accuracy figure
+MISSING_OPTIONAL: results/figures/fig_mc_vwls_snr_accuracy.png — SNR-accuracy figure
+MISSING_OPTIONAL: results/csv/mc_vwls_statistical_comparison.csv — Pairwise statistical comparison
+MISSING_OPTIONAL: results/validation/mc_vwls_statistical_comparison_report.txt — Statistical-comparison report
+
+[EMPTY FILES]
+None
+
+[REQUIRED OUTPUT DETAILS]
+PASS: results/csv/mc_vwls_confusion_matrix_counts.csv, size=2.869 KiB, csv_rows=32
+PASS: results/csv/mc_vwls_confusion_matrix_normalized.csv, size=11.671 KiB, csv_rows=32
+PASS: results/figures/fig_mc_vwls_confusion_matrix.pdf, size=23.901 KiB, csv_rows=
+PASS: results/figures/fig_mc_vwls_confusion_matrix.png, size=201.195 KiB, csv_rows=
+PASS: data/generated/occlusion_clean_v2.h5, size=8.609 GiB, csv_rows=
+PASS: data/generated/turbulence_base_v1.h5, size=4.069 GiB, csv_rows=
+PASS: results/csv/mc_vwls_selected_failure_cases.csv, size=1.987 KiB, csv_rows=4
+PASS: results/figures/fig_mc_vwls_failure_cases.pdf, size=290.560 KiB, csv_rows=
+PASS: results/figures/fig_mc_vwls_failure_cases.png, size=1.046 MiB, csv_rows=
+PASS: results/validation/mc_vwls_failure_cases_report.txt, size=1.626 KiB, csv_rows=
+PASS: docs/experiment_results_draft.md, size=21.421 KiB, csv_rows=
+PASS: results/csv/mc_vwls_ablation_full_test_predictions.csv, size=23.750 MiB, csv_rows=134400
+PASS: results/validation/mc_vwls_ablation_full_test_report.txt, size=5.805 KiB, csv_rows=
+PASS: results/csv/mc_vwls_complexity_summary.csv, size=843.000 B, csv_rows=4
+PASS: results/csv/mc_vwls_runtime_benchmark.csv, size=1.938 KiB, csv_rows=8
+PASS: results/figures/fig_mc_vwls_runtime.pdf, size=65.457 KiB, csv_rows=
+PASS: results/figures/fig_mc_vwls_runtime.png, size=32.560 KiB, csv_rows=
+PASS: results/validation/mc_vwls_runtime_complexity_report.txt, size=3.106 KiB, csv_rows=
+PASS: data/manifest/sample_split_v1.npz, size=22.110 KiB, csv_rows=
+PASS: results/csv/mc_vwls_ablation_summary.csv, size=23.935 KiB, csv_rows=160
+
+[RECENT RUNTIME OUTPUTS]
+PASS: results/csv/mc_vwls_complexity_summary.csv, size=843.000 B, modified=2026-08-05T12:26:25
+PASS: results/csv/mc_vwls_runtime_benchmark.csv, size=1.938 KiB, modified=2026-08-05T12:26:25
+PASS: results/figures/fig_mc_vwls_runtime.pdf, size=65.457 KiB, modified=2026-08-05T12:26:25
+PASS: results/figures/fig_mc_vwls_runtime.png, size=32.560 KiB, modified=2026-08-05T12:26:25
+PASS: results/validation/mc_vwls_runtime_complexity_report.txt, size=3.106 KiB, modified=2026-08-05T12:26:25
+
+[OUTPUTS]
+Inventory CSV: E:\OAM_MC_VWLS_Project\results\csv\experiment_results_inventory.csv
+Validation report: E:\OAM_MC_VWLS_Project\results\validation\experiment_results_inventory_report.txt

@@ -1,0 +1,30 @@
+﻿check_id,category,description,expected,actual,status,details
+PRED-001,prediction,Total ablation prediction rows,134400,134400,PASS,
+PRED-002,prediction,Prediction method coverage,"('A0_DAF', 'A1_MASK_ULS', 'A2_RAW_VWLS', 'A3_MC_VWLS')","('A0_DAF', 'A1_MASK_ULS', 'A2_RAW_VWLS', 'A3_MC_VWLS')",PASS,
+PRED-COUNT-A0_DAF,prediction,Observation count for A0_DAF,33600,33600,PASS,
+PRED-COUNT-A1_MASK_ULS,prediction,Observation count for A1_MASK_ULS,33600,33600,PASS,
+PRED-COUNT-A2_RAW_VWLS,prediction,Observation count for A2_RAW_VWLS,33600,33600,PASS,
+PRED-COUNT-A3_MC_VWLS,prediction,Observation count for A3_MC_VWLS,33600,33600,PASS,
+PRED-A3-LABEL,prediction,A3 joint-label accuracy,0.848125000000,0.848125000000,PASS,
+PRED-A3-ORDER,prediction,A3 OAM-order accuracy,0.893452380952,0.893452380952,PASS,
+PRED-A3-PHASE,prediction,A3 phase-bin accuracy,0.857916666667,0.857916666667,PASS,
+PRED-003,prediction,Unique method/sample/SNR prediction keys,0,0,PASS,
+CONF-001,confusion,Count matrix dimensions,"(32, 32)","(32, 32)",PASS,
+CONF-002,confusion,Normalized matrix dimensions,"(32, 32)","(32, 32)",PASS,
+CONF-003,confusion,Confusion-matrix total count,33600,33600,PASS,
+CONF-004,confusion,Confusion-matrix diagonal count,28497,28497,PASS,
+CONF-005,confusion,Confusion accuracy matches A3 prediction accuracy,0.848125000000,0.848125000000,PASS,
+CONF-006,confusion,"Normalized confusion values lie in [0, 1]",0,0,PASS,
+CONF-007,confusion,Normalized confusion rows sum to one,0,0,PASS,[]
+FAILCASE-001,failure_case,Selected representative-case count,4,4,PASS,
+FAILCASE-002,failure_case,Representative-case category coverage,"['Correct: severe turbulence', 'Correct: weak turbulence', 'Failure: adjacent phase', 'Failure: cross order']","['Correct: severe turbulence', 'Correct: weak turbulence', 'Failure: adjacent phase', 'Failure: cross order']",PASS,
+FAILCASE-003,failure_case,Selected-case correctness flags match labels,0,0,PASS,
+RUNTIME-001,runtime,Runtime benchmark row count,8,8,PASS,
+RUNTIME-002,runtime,Runtime method/scope coverage,"[('A0_DAF', 'end_to_end'), ('A0_DAF', 'recognition_only'), ('A1_MASK_ULS', 'end_to_end'), ('A1_MASK_ULS', 'recognition_only'), ('A2_RAW_VWLS', 'end_to_end'), ('A2_RAW_VWLS', 'recognition_only'), ('A3_MC_VWLS', 'end_to_end'), ('A3_MC_VWLS', 'recognition_only')]","[('A0_DAF', 'end_to_end'), ('A0_DAF', 'recognition_only'), ('A1_MASK_ULS', 'end_to_end'), ('A1_MASK_ULS', 'recognition_only'), ('A2_RAW_VWLS', 'end_to_end'), ('A2_RAW_VWLS', 'recognition_only'), ('A3_MC_VWLS', 'end_to_end'), ('A3_MC_VWLS', 'recognition_only')]",PASS,
+RUNTIME-003,runtime,Runtime values and protocol fields,0,0,PASS,[]
+RUNTIME-004,runtime,End-to-end time is not below recognition-only time,0,0,PASS,[]
+COMPLEX-001,complexity,Complexity-table row count,4,4,PASS,
+COMPLEX-002,complexity,Complexity-table method coverage,"['A0_DAF', 'A1_MASK_ULS', 'A2_RAW_VWLS', 'A3_MC_VWLS']","['A0_DAF', 'A1_MASK_ULS', 'A2_RAW_VWLS', 'A3_MC_VWLS']",PASS,
+COMPLEX-003,complexity,Complexity-table frozen parameter values,0,0,PASS,[]
+FILES-001,files,Missing critical experiment outputs,0,0,PASS,[]
+FILES-002,files,Empty critical experiment outputs,0,0,PASS,[]

@@ -1,0 +1,12 @@
+MC-VWLS confusion matrix report
+Prediction CSV: E:\OAM_MC_VWLS_Project\results\csv\mc_vwls_ablation_full_test_predictions.csv
+Target method: A3_MC_VWLS
+Selected observations: 33600
+Class count: 32
+Observed label accuracy: 0.84812500
+Missing true classes: 0
+
+Count matrix CSV: E:\OAM_MC_VWLS_Project\results\csv\mc_vwls_confusion_matrix_counts.csv
+Normalized matrix CSV: E:\OAM_MC_VWLS_Project\results\csv\mc_vwls_confusion_matrix_normalized.csv
+PNG figure: E:\OAM_MC_VWLS_Project\results\figures\fig_mc_vwls_confusion_matrix.png
+PDF figure: E:\OAM_MC_VWLS_Project\results\figures\fig_mc_vwls_confusion_matrix.pdf

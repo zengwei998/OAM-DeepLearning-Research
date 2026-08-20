@@ -1,0 +1,5 @@
+﻿Method,Configuration,Overall label accuracy,Occlusion 0.0 accuracy,Occlusion 0.2 accuracy,Occlusion 0.4 accuracy,Accuracy loss from 0.0 to 0.4,Overall order accuracy,Overall phase accuracy
+DAF,Raw zero-filled angular profile; no mask normalization; no visibility weighting,0.84565476,0.86517857,0.84836310,0.82157738,0.04360119,0.89205357,0.85589286
+Mask-ULS,Mask-normalized angular profile; unweighted least squares,0.84857143,0.86517857,0.85089286,0.82842262,0.03675595,0.89348214,0.85830357
+Raw-VWLS,Raw zero-filled angular profile; visibility-weighted least squares,0.84571429,0.86517857,0.84806548,0.82172619,0.04345238,0.89318452,0.85565476
+MC-VWLS,Mask-normalized angular profile; visibility-weighted least squares,0.84812500,0.86517857,0.85089286,0.82648810,0.03869048,0.89345238,0.85791667

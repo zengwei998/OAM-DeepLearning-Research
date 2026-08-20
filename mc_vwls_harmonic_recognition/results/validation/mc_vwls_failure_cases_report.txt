@@ -1,0 +1,22 @@
+MC-VWLS representative success and failure cases
+Prediction CSV: E:\OAM_MC_VWLS_Project\results\csv\mc_vwls_ablation_full_test_predictions.csv
+Dataset: E:\OAM_MC_VWLS_Project\data\generated\occlusion_clean_v2.h5
+
+[FROZEN PARAMETERS]
+angular_samples=180
+radial_samples=64
+weight_power=0.5
+visibility_threshold=0.0
+regularization=0.0
+
+[SELECTED CASES]
+1. case=Correct: weak turbulence, sample_index=21678, SNR=0.0, occlusion=0.3, Cn2=9.99999982e-15, distance=500.0, true=(2,7), predicted=(2,7), confidence=0.56595032, scores=[l=1:0.28784910, l=2:1.67590580, l=3:0.18537780, l=4:0.11592551]
+2. case=Correct: severe turbulence, sample_index=6933, SNR=10.0, occlusion=0.3, Cn2=9.99999982e-14, distance=750.0, true=(1,4), predicted=(1,4), confidence=0.21935982, scores=[l=1:0.81620111, l=2:0.49164894, l=3:0.30379615, l=4:0.24313376]
+3. case=Failure: adjacent phase, sample_index=8158, SNR=5.0, occlusion=0.3, Cn2=4.99999991e-14, distance=1000.0, true=(1,5), predicted=(1,4), confidence=0.38072023, scores=[l=1:1.67606716, l=2:0.72702859, l=3:0.36911601, l=4:0.24224607]
+4. case=Failure: cross order, sample_index=37764, SNR=0.0, occlusion=0.4, Cn2=9.99999982e-14, distance=1000.0, true=(4,2), predicted=(1,4), confidence=0.30183664, scores=[l=1:0.63865833, l=2:0.08908837, l=3:0.14839516, l=4:0.22530758]
+
+[OUTPUTS]
+Selected-case CSV: E:\OAM_MC_VWLS_Project\results\csv\mc_vwls_selected_failure_cases.csv
+PNG figure: E:\OAM_MC_VWLS_Project\results\figures\fig_mc_vwls_failure_cases.png
+PDF figure: E:\OAM_MC_VWLS_Project\results\figures\fig_mc_vwls_failure_cases.pdf
+Report: E:\OAM_MC_VWLS_Project\results\validation\mc_vwls_failure_cases_report.txt

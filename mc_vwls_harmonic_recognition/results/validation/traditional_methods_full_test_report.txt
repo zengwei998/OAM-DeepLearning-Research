@@ -1,0 +1,33 @@
+Traditional-method full test report
+Dataset: E:\OAM_MC_VWLS_Project\data\generated\occlusion_clean_v2.h5
+Split: E:\OAM_MC_VWLS_Project\data\manifest\sample_split_v1.npz
+Clean test samples: 6720
+Noisy observations per method: 33600
+Methods: ('DAF', 'ULS', 'MC-VWLS')
+
+[OVERALL]
+method=DAF, samples=33600, label_accuracy=0.84565476, order_accuracy=0.89205357, phase_accuracy=0.85589286, mean_phase_bin_error=0.28607143, mean_confidence=0.68270047
+method=ULS, samples=33600, label_accuracy=0.84857143, order_accuracy=0.89348214, phase_accuracy=0.85830357, mean_phase_bin_error=0.28303571, mean_confidence=0.58866615
+method=MC-VWLS, samples=33600, label_accuracy=0.84741071, order_accuracy=0.89389881, phase_accuracy=0.85708333, mean_phase_bin_error=0.28330357, mean_confidence=0.58225462
+
+[LABEL ACCURACY BY SNR]
+SNR=20.0 dB, method=DAF, label_accuracy=0.84672619
+SNR=20.0 dB, method=ULS, label_accuracy=0.84880952
+SNR=20.0 dB, method=MC-VWLS, label_accuracy=0.84836310
+SNR=15.0 dB, method=DAF, label_accuracy=0.84657738
+SNR=15.0 dB, method=ULS, label_accuracy=0.84970238
+SNR=15.0 dB, method=MC-VWLS, label_accuracy=0.84821429
+SNR=10.0 dB, method=DAF, label_accuracy=0.84553571
+SNR=10.0 dB, method=ULS, label_accuracy=0.84836310
+SNR=10.0 dB, method=MC-VWLS, label_accuracy=0.84806548
+SNR=5.0 dB, method=DAF, label_accuracy=0.84583333
+SNR=5.0 dB, method=ULS, label_accuracy=0.84940476
+SNR=5.0 dB, method=MC-VWLS, label_accuracy=0.84791667
+SNR=0.0 dB, method=DAF, label_accuracy=0.84360119
+SNR=0.0 dB, method=ULS, label_accuracy=0.84657738
+SNR=0.0 dB, method=MC-VWLS, label_accuracy=0.84449405
+
+elapsed_seconds=143.232162
+mean_seconds_per_noisy_observation=0.0042628620
+Prediction CSV: E:\OAM_MC_VWLS_Project\results\csv\traditional_methods_full_test_predictions.csv
+Summary CSV: E:\OAM_MC_VWLS_Project\results\csv\traditional_methods_summary.csv

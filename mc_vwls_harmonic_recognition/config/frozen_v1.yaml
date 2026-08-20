@@ -1,0 +1,212 @@
+# ==========================================================
+# OAM_MC_VWLS_Project
+# Frozen Experiment Configuration v1.1
+# ==========================================================
+
+
+optics:
+
+  wavelength: 1550e-9
+
+  waist: 0.02
+
+  grid_size: 256
+
+  window_size: 0.24
+
+  propagation_method: angular_spectrum
+
+
+
+oam:
+
+  radial_order: 0
+
+  modes:
+    - 1
+    - 2
+    - 3
+    - 4
+
+  phase_bins: 8
+
+  amplitude_ratio:
+
+    min: 0.8
+
+    max: 1.2
+
+
+
+turbulence:
+
+  model:
+
+    name: von_karman
+
+
+  Cn2:
+
+    - 1.0e-15
+    - 2.5e-15
+    - 5.0e-15
+    - 1.0e-14
+    - 2.5e-14
+    - 5.0e-14
+    - 1.0e-13
+
+
+  propagation_distance:
+
+    - 250
+    - 500
+    - 750
+    - 1000
+
+
+  phase_screen_number: 8
+
+  outer_scale: 20.0
+
+  inner_scale: 5.0e-3
+
+
+
+noise:
+
+  SNR:
+
+    - 20
+    - 15
+    - 10
+    - 5
+    - 0
+
+
+  type:
+
+    - awgn
+
+
+  snr_definition:
+
+    - pre_clipping_image_power
+
+
+  negative_handling:
+
+    - clip_to_zero
+
+
+  global_seed:
+
+    - 20260804
+
+
+
+mask:
+
+  type:
+
+    - circular
+
+
+  energy_occlusion_ratio:
+
+    - 0.0
+    - 0.1
+    - 0.2
+    - 0.3
+    - 0.4
+
+
+  definition:
+
+    blocked_energy_divided_by_total_energy: true
+
+
+  random_position:
+
+    enabled: true
+
+
+
+dataset:
+
+  states: 32
+
+
+  realizations_per_condition: 10
+
+
+  split:
+
+    train: 0.70
+
+    validation: 0.15
+
+    test: 0.15
+
+
+  split_strategy:
+
+    - grouped_by_propagation_condition
+
+
+  storage:
+
+    format: hdf5
+
+
+
+mc_vwls:
+
+  angular_samples: 180
+
+  radial_samples: 64
+
+  visibility_threshold: 0.05
+
+  regularization: 1.0e-6
+
+
+
+deep_learning:
+
+  image_size: 256
+
+
+  models:
+
+    - ResNet50
+
+    - CPB-HResNet50
+
+
+  epochs: 100
+
+
+  batch_size: 64
+
+
+  optimizer:
+
+    name: AdamW
+
+    lr: 0.0001
+
+
+
+experiment:
+
+  seed: 20260804
+
+
+  device:
+
+    cuda: true
+
+
+  version:
+
+    v1.1

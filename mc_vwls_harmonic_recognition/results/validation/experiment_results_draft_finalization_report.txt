@@ -1,0 +1,23 @@
+Experiment-results draft finalization
+
+[STATUS]
+Status=PASS
+Operation=APPENDED
+Original draft size=21204 characters
+Updated draft size=24388 characters
+
+[SOURCE DATA]
+Failure cases=4
+Runtime rows=8
+Complexity rows=4
+Consistency checks=29
+
+[UPDATED SECTIONS]
+4.12 Representative success and failure cases
+4.13 Runtime and computational complexity
+4.14 Experimental consistency and chapter summary
+
+[OUTPUTS]
+Updated draft: E:\OAM_MC_VWLS_Project\docs\experiment_results_draft.md
+Backup draft: E:\OAM_MC_VWLS_Project\docs\experiment_results_draft_before_finalization.md
+Finalization report: E:\OAM_MC_VWLS_Project\results\validation\experiment_results_draft_finalization_report.txt

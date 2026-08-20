@@ -1,0 +1,7 @@
+sample=21700, target_occlusion=0.0, SNR=10.0 dB, polar_shape=(64, 180), visibility_min=1.000000, visibility_mean=1.000000, visibility_max=1.000000, valid_fraction=1.000000, profile_min=7.3918492644e-06, profile_max=5.4903195011e-05, finite=True
+sample=21702, target_occlusion=0.2, SNR=10.0 dB, polar_shape=(64, 180), visibility_min=0.895237, visibility_mean=0.973403, visibility_max=1.000000, valid_fraction=1.000000, profile_min=5.4452650490e-06, profile_max=5.1010132524e-05, finite=True
+sample=21704, target_occlusion=0.4, SNR=10.0 dB, polar_shape=(64, 180), visibility_min=0.838567, visibility_mean=0.941927, visibility_max=0.994095, valid_fraction=1.000000, profile_min=4.7942990709e-06, profile_max=5.0409578390e-05, finite=True
+
+==============================================================================
+POLAR SAMPLING STATUS: PASS
+==============================================================================

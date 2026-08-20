@@ -1,0 +1,56 @@
+Experiment manifest report
+Project root: E:\OAM_MC_VWLS_Project
+Manifest generated at local time: 2026-08-04T19:54:06
+Total files: 1392
+Total size: 27109282893 bytes (25.247 GiB)
+
+[SCANNED DIRECTORIES]
+data\generated
+data\manifest
+results\csv
+results\tables
+results\figures
+results\validation
+
+[SUMMARY BY DIRECTORY]
+data/generated: files=1335, size=27044390420 bytes (25.187 GiB)
+data/manifest: files=3, size=6501915 bytes (6.201 MiB)
+results/csv: files=14, size=53618914 bytes (51.135 MiB)
+results/figures: files=13, size=4710209 bytes (4.492 MiB)
+results/tables: files=7, size=6444 bytes (6.293 KiB)
+results/validation: files=20, size=54991 bytes (53.702 KiB)
+
+[SUMMARY BY FILE TYPE]
+.csv: files=24, size=60105433 bytes (57.321 MiB)
+.h5: files=3, size=25648564595 bytes (23.887 GiB)
+.npy: files=1331, size=1395825024 bytes (1.300 GiB)
+.npz: files=1, size=22641 bytes (22.110 KiB)
+.pdf: files=6, size=1195814 bytes (1.140 MiB)
+.png: files=7, size=3514395 bytes (3.352 MiB)
+.txt: files=20, size=54991 bytes (53.702 KiB)
+
+[20 LARGEST FILES]
+01. data/generated/turbulence_mask_v1.h5 | 12035546187 bytes | 11.209 GiB | SHA256=eec775a6eb0f8ac73052b60040baf5435590d6b2d47c6228cbf91f4181453148
+02. data/generated/occlusion_clean_v2.h5 | 9243575928 bytes | 8.609 GiB | SHA256=9616af15367c1d79ab531a78be4165864afccac17425691dd03e99e2c28ef272
+03. data/generated/turbulence_base_v1.h5 | 4369442480 bytes | 4.069 GiB | SHA256=c5a00efe95ea8423b89bcecc02ae3861b4f193057a7c5e413539b3ce8455a037
+04. results/csv/mc_vwls_ablation_full_test_predictions.csv | 24903216 bytes | 23.750 MiB | SHA256=120ef2c7241854190ac9b0ce34fe906d3a9209e1e3cdb6fef1b349161cb3b99a
+05. results/csv/traditional_methods_full_test_predictions.csv | 14452730 bytes | 13.783 MiB | SHA256=e1640f016c96de90b958f5500bc994fd9b511a5805e57cb525c72f1bc408bdaf
+06. data/manifest/sample_split_v1.csv | 6467244 bytes | 6.168 MiB | SHA256=4438ec0c9bddd2ae767c55bdb3a5b1459744138fb3747e6f9e248f0e30276c2c
+07. results/csv/mc_vwls_tuned_full_test_predictions.csv | 6136401 bytes | 5.852 MiB | SHA256=73b4cc4defa56cb24580edf658a43b4b1a0a4744d99d1f20b25c4b516f5c5540
+08. results/csv/mc_vwls_full_test_predictions.csv | 6136012 bytes | 5.852 MiB | SHA256=b79d2fb9300f5312553572d9337397419620d2e2f56e049b722971deb881ddcd
+09. results/csv/mc_vwls_subset_predictions.csv | 1868637 bytes | 1.782 MiB | SHA256=a5d7ce4ab0a7ef0a2efbb780bf4cfa8d32903f24ea555f73b0903f06b1147578
+10. results/figures/fig_receiver_noise_qc.png | 1535165 bytes | 1.464 MiB | SHA256=df4854e93aeb8a7cbaac9ff6209e2f94a624ee691b9324c729b67f5792a39d4d
+11. data/generated/ideal/state_000.npy | 1048704 bytes | 1.000 MiB | SHA256=8bd11b73dfb9d2ae83cc5d42b7b84ab47c3b1b498ad80772265faae7bf62bf7a
+12. data/generated/ideal/state_001.npy | 1048704 bytes | 1.000 MiB | SHA256=b4ab81d3aa7f1b0662f4c9fef66ec1b805d65806f31f8820030d7c6f6c93ce92
+13. data/generated/ideal/state_002.npy | 1048704 bytes | 1.000 MiB | SHA256=bfa110ebf19010127bef6436a394e3a539fa51a2af02ef77802c9a41c73c09fb
+14. data/generated/ideal/state_003.npy | 1048704 bytes | 1.000 MiB | SHA256=fffe3573d0c3ecf5b1df4668cddb5e1d4d43688a253de07498636dbf89e437ec
+15. data/generated/ideal/state_004.npy | 1048704 bytes | 1.000 MiB | SHA256=35822a5cdec21a9dc157207e2a3da8e4361c6b6460935e4a72ad3966df1333cf
+16. data/generated/ideal/state_005.npy | 1048704 bytes | 1.000 MiB | SHA256=f691c6012f562acde13bf03dadeb0e3502670ad22bc97c32545f2684a23510bb
+17. data/generated/ideal/state_006.npy | 1048704 bytes | 1.000 MiB | SHA256=bc2f61812dd89cdf34af620f37ca4fbb7461774352e0af6e517832440a2d1b39
+18. data/generated/ideal/state_007.npy | 1048704 bytes | 1.000 MiB | SHA256=244ec39ec338cef1a203765852e99118eace63a56ca9b2d1a414e84c45800b96
+19. data/generated/ideal/state_008.npy | 1048704 bytes | 1.000 MiB | SHA256=989a2cf75ca248331b5ab415168a0c12c213fc069c05e9239bf4243d43766d94
+20. data/generated/ideal/state_009.npy | 1048704 bytes | 1.000 MiB | SHA256=b41821fd9674bd6e8fa555c7181bca273ca681d1a173ab12f63800662d0dd1a7
+
+[OUTPUTS]
+Manifest CSV: E:\OAM_MC_VWLS_Project\results\validation\experiment_manifest.csv
+Report: E:\OAM_MC_VWLS_Project\results\validation\experiment_manifest_report.txt

@@ -1,0 +1,6 @@
+﻿Target SNR (dB),Samples,Pre-clipping SNR mean (dB),Pre-clipping SNR standard deviation (dB),Post-clipping SNR mean (dB),Post-clipping SNR standard deviation (dB),Mean SNR shift (dB),Mean clipped-pixel fraction,Clipped-pixel fraction standard deviation
+20.0,512,20.000000,1.143e-15,22.416448,0.241253,2.416448,0.413648,0.040347
+15.0,512,15.000000,6.131e-16,17.494640,0.203756,2.494640,0.425638,0.033218
+10.0,512,10.000000,1.056e-15,12.572132,0.167974,2.572132,0.436565,0.027062
+5.0,512,5.000000,8.054e-16,7.648200,0.132569,2.648200,0.446860,0.021651
+0.0,512,0.000000,8.209e-16,2.723772,0.099162,2.723772,0.456950,0.016665

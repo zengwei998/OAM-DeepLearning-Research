@@ -1,0 +1,20 @@
+Paper table generation report
+
+Table1_dataset_statistics.csv: rows=15, description=Dataset statistics
+Table2_occlusion_validation.csv: rows=5, description=Occlusion validation
+Table3_noise_validation.csv: rows=5, description=Receiver-noise validation
+Table4_main_results.csv: rows=4, description=Main recognition results
+Table5_ablation_results.csv: rows=4, description=Ablation results
+Table6_cn2_distance_results.csv: rows=28, description=Cn2-distance results
+Table7_statistical_significance.csv: rows=6, description=Paired statistical significance
+
+[INPUT FILES]
+E:\OAM_MC_VWLS_Project\results\csv\occlusion_level_summary.csv
+E:\OAM_MC_VWLS_Project\results\csv\receiver_noise_qc.csv
+E:\OAM_MC_VWLS_Project\results\csv\mc_vwls_ablation_summary.csv
+E:\OAM_MC_VWLS_Project\results\csv\ablation_pairwise_statistics.csv
+E:\OAM_MC_VWLS_Project\results\csv\ablation_by_cn2_distance.csv
+E:\OAM_MC_VWLS_Project\results\csv\ablation_accuracy_confidence_intervals.csv
+
+[OUTPUT DIRECTORY]
+E:\OAM_MC_VWLS_Project\results\tables

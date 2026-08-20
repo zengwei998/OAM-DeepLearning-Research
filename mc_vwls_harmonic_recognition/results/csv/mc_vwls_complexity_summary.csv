@@ -1,0 +1,5 @@
+﻿method,method_display_name,polar_sampling_complexity,profile_complexity,recognition_complexity,total_complexity,dominant_memory,candidate_count_K,angular_samples_N_theta,radial_samples_N_r,polar_grid_elements,weighted_fit,mask_support_normalization,small_system_size
+A0_DAF,DAF,O(N_theta*N_r),O(N_theta*N_r),O(K*N_theta),O(N_theta*N_r + K*N_theta),O(N_theta*N_r),4,180,64,11520,0,0,0
+A1_MASK_ULS,Mask-ULS,O(N_theta*N_r),O(N_theta*N_r),O(K*N_theta*p^2 + K*p^3),O(N_theta*N_r + K*N_theta*p^2 + K*p^3),O(N_theta*N_r),4,180,64,11520,0,1,3
+A2_RAW_VWLS,Raw-VWLS,O(N_theta*N_r),O(N_theta*N_r),O(K*N_theta*p^2 + K*p^3),O(N_theta*N_r + K*N_theta*p^2 + K*p^3),O(N_theta*N_r),4,180,64,11520,1,0,3
+A3_MC_VWLS,MC-VWLS,O(N_theta*N_r),O(N_theta*N_r),O(K*N_theta*p^2 + K*p^3),O(N_theta*N_r + K*N_theta*p^2 + K*p^3),O(N_theta*N_r),4,180,64,11520,1,1,3

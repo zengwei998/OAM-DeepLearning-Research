@@ -1,0 +1,16 @@
+﻿Item,Value,Description
+State classes,32,Four OAM orders multiplied by eight phase bins
+OAM orders,"1, 2, 3, 4",Candidate superposition-state OAM orders
+Phase bins,8,Uniform discrete relative-phase categories
+Turbulence strengths Cn2,7,"1e-15, 2.5e-15, 5e-15, 1e-14, 2.5e-14, 5e-14, 1e-13"
+Propagation distances,4,"250, 500, 750, 1000"
+Propagation seeds per condition,10,Seeds 0 through 9
+Occlusion levels,5,"0.0, 0.1, 0.2, 0.3, 0.4"
+Clean samples,44800,Complete corrected local-occlusion dataset
+Training samples,31360,Grouped split with no propagation-group leakage
+Validation samples,6720,Grouped split with no propagation-group leakage
+Test samples,6720,Grouped split with no propagation-group leakage
+Nominal SNR levels,5,"20, 15, 10, 5, 0 dB"
+Noisy test observations per method,33600,6720 test samples multiplied by five SNR levels
+Angular samples,180,Uniform polar angular samples
+Radial samples,64,Polar radial samples

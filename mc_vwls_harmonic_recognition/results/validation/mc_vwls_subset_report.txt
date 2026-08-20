@@ -1,0 +1,21 @@
+MC-VWLS subset evaluation report
+Dataset: E:\OAM_MC_VWLS_Project\data\generated\occlusion_clean_v2.h5
+Split: E:\OAM_MC_VWLS_Project\data\manifest\sample_split_v1.npz
+Selected clean samples: 2048
+SNR levels: (20.0, 15.0, 10.0, 5.0, 0.0)
+
+overall_samples=10240
+overall_label_accuracy=0.85615234
+overall_order_accuracy=0.89785156
+overall_phase_accuracy=0.86425781
+overall_mean_phase_bin_error=0.26162109
+
+SNR=20.0 dB, samples=2048, label_accuracy=0.85791016, order_accuracy=0.89843750, phase_accuracy=0.86572266
+SNR=15.0 dB, samples=2048, label_accuracy=0.85791016, order_accuracy=0.89892578, phase_accuracy=0.86572266
+SNR=10.0 dB, samples=2048, label_accuracy=0.85742188, order_accuracy=0.89843750, phase_accuracy=0.86572266
+SNR=5.0 dB, samples=2048, label_accuracy=0.85546875, order_accuracy=0.89648438, phase_accuracy=0.86376953
+SNR=0.0 dB, samples=2048, label_accuracy=0.85205078, order_accuracy=0.89697266, phase_accuracy=0.86035156
+
+elapsed_seconds=50.611622
+mean_seconds_per_observation=0.0049425412
+CSV: E:\OAM_MC_VWLS_Project\results\csv\mc_vwls_subset_predictions.csv

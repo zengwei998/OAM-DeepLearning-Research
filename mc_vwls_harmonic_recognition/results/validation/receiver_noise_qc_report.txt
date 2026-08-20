@@ -1,0 +1,16 @@
+Receiver-noise QC report
+Source: E:\OAM_MC_VWLS_Project\data\generated\occlusion_clean_v2.h5
+Representative sample: 21702
+Audit sample count: 512
+
+SNR definition: image-domain signal-to-noise ratio before nonnegative clipping.
+
+target=20.0 dB, preclip_mean=20.0000000000 dB, postclip_mean=22.416448 dB, shift_mean=2.416448 dB, clipped_fraction_mean=0.413648
+target=15.0 dB, preclip_mean=15.0000000000 dB, postclip_mean=17.494640 dB, shift_mean=2.494640 dB, clipped_fraction_mean=0.425638
+target=10.0 dB, preclip_mean=10.0000000000 dB, postclip_mean=12.572132 dB, shift_mean=2.572132 dB, clipped_fraction_mean=0.436565
+target=5.0 dB, preclip_mean=5.0000000000 dB, postclip_mean=7.648200 dB, shift_mean=2.648200 dB, clipped_fraction_mean=0.446860
+target=0.0 dB, preclip_mean=0.0000000000 dB, postclip_mean=2.723772 dB, shift_mean=2.723772 dB, clipped_fraction_mean=0.456950
+
+PNG: E:\OAM_MC_VWLS_Project\results\figures\fig_receiver_noise_qc.png
+PDF: E:\OAM_MC_VWLS_Project\results\figures\fig_receiver_noise_qc.pdf
+CSV: E:\OAM_MC_VWLS_Project\results\csv\receiver_noise_qc.csv

@@ -1,0 +1,11 @@
+sample=0, true_label=0, true_order=1, true_phase_bin=0, occlusion=0.0, SNR=10.0, pred_label=0, pred_order=1, pred_phase_bin=0, phase_rad=0.018530, confidence=0.981535, margin=0.995374, scores={1: 9.899090773468643, 2: 0.0457904018967035, 3: 0.03350314273198252, 4: 0.013886043990684691}, finite=True
+sample=7, true_label=0, true_order=1, true_phase_bin=0, occlusion=0.2, SNR=10.0, pred_label=0, pred_order=1, pred_phase_bin=0, phase_rad=6.218045, confidence=0.881893, margin=0.984954, scores={1: 4.007381127543834, 2: 0.06029479332383915, 3: 0.028771391153449913, 4: 0.00785764213670181}, finite=True
+sample=21700, true_label=15, true_order=2, true_phase_bin=7, occlusion=0.0, SNR=10.0, pred_label=15, pred_order=2, pred_phase_bin=7, phase_rad=5.502125, confidence=0.692359, margin=0.822834, scores={1: 0.09761095617368055, 2: 2.8890950432678304, 3: 0.5118480240887253, 4: 0.13581669984571523}, finite=True
+sample=21702, true_label=15, true_order=2, true_phase_bin=7, occlusion=0.2, SNR=10.0, pred_label=15, pred_order=2, pred_phase_bin=7, phase_rad=5.546941, confidence=0.577968, margin=0.815143, scores={1: 0.33591036123829915, 2: 1.8171315247946298, 3: 0.3193090104285251, 4: 0.04630305627556672}, finite=True
+sample=21704, true_label=15, true_order=2, true_phase_bin=7, occlusion=0.4, SNR=10.0, pred_label=15, pred_order=2, pred_phase_bin=7, phase_rad=5.524970, confidence=0.457674, margin=0.759685, scores={1: 0.13396062115330257, 2: 1.237092284956974, 3: 0.2972916915539227, 4: 0.08677389017524989}, finite=True
+sample=44795, true_label=31, true_order=4, true_phase_bin=7, occlusion=0.0, SNR=10.0, pred_label=11, pred_order=2, pred_phase_bin=3, phase_rad=2.224871, confidence=0.119456, margin=0.233204, scores={1: 0.19864058927195458, 2: 0.3154230535650564, 3: 0.2247300200540234, 4: 0.2418650294142747}, finite=True
+sample=44799, true_label=31, true_order=4, true_phase_bin=7, occlusion=0.4, SNR=10.0, pred_label=22, pred_order=3, pred_phase_bin=6, phase_rad=4.827422, confidence=0.239364, margin=0.528212, scores={1: 0.2622234444491579, 2: 0.07637985356731589, 3: 0.6491024496784037, 4: 0.3062388014963167}, finite=True
+
+==============================================================================
+HARMONIC FIT STATUS: PASS
+==============================================================================

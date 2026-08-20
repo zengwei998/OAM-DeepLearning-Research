@@ -1,0 +1,11 @@
+sample=0, true_label=0, true_order=1, true_phase_bin=0, occlusion=0.0, SNR=10.0, DAF=0, ULS=0, MC_VWLS=0, DAF_order=1, ULS_order=1, MC_order=1, DAF_conf=0.967310, ULS_conf=0.981535, MC_conf=0.981535, visibility_mean=1.000000, finite=True
+sample=7, true_label=0, true_order=1, true_phase_bin=0, occlusion=0.2, SNR=10.0, DAF=0, ULS=0, MC_VWLS=0, DAF_order=1, ULS_order=1, MC_order=1, DAF_conf=0.955047, ULS_conf=0.892324, MC_conf=0.881893, visibility_mean=0.987949, finite=True
+sample=21700, true_label=15, true_order=2, true_phase_bin=7, occlusion=0.0, SNR=10.0, DAF=15, ULS=15, MC_VWLS=15, DAF_order=2, ULS_order=2, MC_order=2, DAF_conf=0.621088, ULS_conf=0.692359, MC_conf=0.692359, visibility_mean=1.000000, finite=True
+sample=21702, true_label=15, true_order=2, true_phase_bin=7, occlusion=0.2, SNR=10.0, DAF=15, ULS=15, MC_VWLS=15, DAF_order=2, ULS_order=2, MC_order=2, DAF_conf=0.652249, ULS_conf=0.565602, MC_conf=0.577968, visibility_mean=0.973403, finite=True
+sample=21704, true_label=15, true_order=2, true_phase_bin=7, occlusion=0.4, SNR=10.0, DAF=15, ULS=15, MC_VWLS=15, DAF_order=2, ULS_order=2, MC_order=2, DAF_conf=0.694544, ULS_conf=0.475396, MC_conf=0.457674, visibility_mean=0.941927, finite=True
+sample=44795, true_label=31, true_order=4, true_phase_bin=7, occlusion=0.0, SNR=10.0, DAF=11, ULS=11, MC_VWLS=11, DAF_order=2, ULS_order=2, MC_order=2, DAF_conf=0.225607, ULS_conf=0.119456, MC_conf=0.119456, visibility_mean=1.000000, finite=True
+sample=44799, true_label=31, true_order=4, true_phase_bin=7, occlusion=0.4, SNR=10.0, DAF=22, ULS=22, MC_VWLS=22, DAF_order=3, ULS_order=3, MC_order=3, DAF_conf=0.537644, ULS_conf=0.324704, MC_conf=0.239364, visibility_mean=0.827040, finite=True
+
+==============================================================================
+BASELINE CHECK STATUS: PASS
+==============================================================================
